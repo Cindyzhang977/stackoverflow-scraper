@@ -1,0 +1,38 @@
+:root {
+  --navy: #000a2e;
+  --orange: #f48024;
+  --periwinkle: #9a9ae3;
+  --dark-gray: #404040;
+  --beige: #f0f0e6;
+}
+
+.nav {
+  background-color: var(--navy);
+  font-size: 24px;
+  padding-left: 48px;
+  padding-top: 8px;
+  position: absolute;
+}
+
+.navLogo {
+  color: var(--beige);
+  font-size: 32px;
+  height: 32px;
+  left: 16px;
+  position: absolute;
+  top: 28px;
+}
+
+.stackoverflow {
+  color: var(--orange);
+  font-weight: 700;
+}
+
+.scraper {
+  color: var(--beige);
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 20px;
+  font-weight: 600;
+  letter-spacing: 12px;
+  line-height: 8px;
+}

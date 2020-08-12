@@ -1,0 +1,3286 @@
+Script started on Fri Jul 31 21:53:34 2020
+[1m[7m%[27m[1m[0m                                                                                ]7;file://Cindys-MacBook-Pro.local/Users/cindyzhang/Documents/personal-projects/webscrape-stackoverflow/client[0m[27m[24m[Jcindyzhang ~/.../personal-projects/webscrape-stackoverflow/client $ [K[?2004hlls[?2004l
+README.md	package.json	src		yarn.lock
+node_modules	public		start
+[1m[7m%[27m[1m[0m                                                                                ]7;file://Cindys-MacBook-Pro.local/Users/cindyzhang/Documents/personal-projects/webscrape-stackoverflow/client[0m[27m[24m[Jcindyzhang ~/.../personal-projects/webscrape-stackoverflow/client $ [K[?2004hnnmn non  ppack  p  vvim package.json[1m [0m[K[K[?2004l
+[?1049h[>4;2m[?1h=[?2004h[1;24r[?12h[?12l[22;2t[22;1t[27m[29m[m[H[2J[?25l[24;1H"package.json" 36L, 847C[2;1H▽[6n[2;1H  [1;1H[>c]10;?]11;?[1;1H{
+  "name": "client",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@testing-library/jest-dom": "^4.2.4",
+    "@testing-library/react": "^9.3.2",
+    "@testing-library/user-event": "^7.1.2",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "react-scripts": "3.4.1"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "start-api": "cd ../server && venv/bin/flask run --no-debugger",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {[1;1H[?25h[27m[29m[m[H[2J[?25l[1;1H{
+  "name": "client",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@testing-library/jest-dom": "^4.2.4",
+    "@testing-library/react": "^9.3.2",
+    "@testing-library/user-event": "^7.1.2",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "react-scripts": "3.4.1"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "start-api": "cd ../server && venv/bin/flask run --no-debugger",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+"package.json" 36L, 847C[1;1H[?25h
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[?25l[24;1H[K[24;1H:[?2004h[?25hq[?25l[?2004l[23;2t[23;1t[24;1H[K[24;1H[?2004l[?1l>[?25h[>4;m[?1049l[1m[7m%[27m[1m[0m                                                                                ]7;file://Cindys-MacBook-Pro.local/Users/cindyzhang/Documents/personal-projects/webscrape-stackoverflow/client[0m[27m[24m[Jcindyzhang ~/.../personal-projects/webscrape-stackoverflow/client $ [K[?2004hsscs  yyarn local[?2004l
+[2K[1G[1myarn run v1.22.4[22m
+[2K[1G[31merror[39m Command "local" not found.
+[2K[1G[34minfo[39m Visit [1mhttps://yarnpkg.com/en/docs/cli/run[22m for documentation about this command.
+[1m[7m%[27m[1m[0m                                                                                ]7;file://Cindys-MacBook-Pro.local/Users/cindyzhang/Documents/personal-projects/webscrape-stackoverflow/client[0m[27m[24m[Jcindyzhang ~/.../personal-projects/webscrape-stackoverflow/client $ [K[?2004hnnpm start[?2004l
+
+> client@0.1.0 start /Users/cindyzhang/Documents/personal-projects/webscrape-stackoverflow/client
+> react-scripts start
+
+[34mℹ[39m [90m｢wds｣[39m: Project is running at http://192.168.1.105/
+[34mℹ[39m [90m｢wds｣[39m: webpack output is served from 
+[34mℹ[39m [90m｢wds｣[39m: Content not from webpack is served from /Users/cindyzhang/Documents/personal-projects/webscrape-stackoverflow/client/public
+[34mℹ[39m [90m｢wds｣[39m: 404s will fallback to /
+[2J[3J[H[36mStarting the development server...[39m
+[36m[39m
+[2J[3J[H[32mCompiled successfully![39m
+
+You can now view [1mclient[22m in the browser.
+
+  [1mLocal:[22m            http://localhost:[1m3000[22m
+  [1mOn Your Network:[22m  http://192.168.1.105:[1m3000[22m
+
+Note that the development build is not optimized.
+To create a production build, use [36myarn build[39m.
+
+[31mProxy error:[39m Could not proxy request [36m/hello-world[39m from [36mlocalhost:3000[39m to [36mhttp://localhost:5000[39m.
+See https://nodejs.org/api/errors.html#errors_common_system_errors for more information ([36mECONNREFUSED[39m).
+
+[2J[3J[HCompiling...
+[2J[3J[H[31mFailed to compile.[39m
+[31m[39m
+[7m./src/Home.js[27m
+  [1mLine 6:35:[22m  'container' is not defined  [31m[4mno-undef[24m[39m
+
+Search for the [4m[31mkeywords[39m[24m to learn more about each error.
+[2J[3J[HCompiling...
+[2J[3J[H[32mCompiled successfully![39m
+
+You can now view [1mclient[22m in the browser.
+
+  [1mLocal:[22m            http://localhost:[1m3000[22m
+  [1mOn Your Network:[22m  http://192.168.1.105:[1m3000[22m
+
+Note that the development build is not optimized.
+To create a production build, use [36myarn build[39m.
+
+[2J[3J[HCompiling...
+[2J[3J[H[32mCompiled successfully![39m
+
+You can now view [1mclient[22m in the browser.
+
+  [1mLocal:[22m            http://localhost:[1m3000[22m
+  [1mOn Your Network:[22m  http://192.168.1.105:[1m3000[22m
+
+Note that the development build is not optimized.
+To create a production build, use [36myarn build[39m.
+
+[2J[3J[HCompiling...
+[2J[3J[H[33mCompiled with warnings.[39m
+[33m[39m
+[7m./src/App.js[27m
+  [1mLine 7:10:[22m  'text' is assigned a value but never used  [33m[4mno-unused-vars[24m[39m
+
+Search for the [4m[33mkeywords[39m[24m to learn more about each warning.
+To ignore, add [36m// eslint-disable-next-line[39m to the line before.
+
+[2J[3J[HCompiling...
+[2J[3J[H[33mCompiled with warnings.[39m
+[33m[39m
+[7m./src/App.js[27m
+  [1mLine 7:10:[22m  'text' is assigned a value but never used  [33m[4mno-unused-vars[24m[39m
+
+Search for the [4m[33mkeywords[39m[24m to learn more about each warning.
+To ignore, add [36m// eslint-disable-next-line[39m to the line before.
+
+[2J[3J[HCompiling...
+[2J[3J[H[33mCompiled with warnings.[39m
+[33m[39m
+[7m./src/App.js[27m
+  [1mLine 7:10:[22m  'text' is assigned a value but never used  [33m[4mno-unused-vars[24m[39m
+
+Search for the [4m[33mkeywords[39m[24m to learn more about each warning.
+To ignore, add [36m// eslint-disable-next-line[39m to the line before.
+
+[2J[3J[HCompiling...
+[2J[3J[H[31mFailed to compile.[39m
+[31m[39m
+[7m./src/Home.js[27m
+  [1mLine 7:37:[22m  'container' is not defined  [31m[4mno-undef[24m[39m
+
+Search for the [4m[31mkeywords[39m[24m to learn more about each error.
+[2J[3J[HCompiling...
+[2J[3J[H[31mFailed to compile.[39m
+[31m[39m
+[7m./src/Home.js[27m
+  [1mLine 7:37:[22m  'container' is not defined  [31m[4mno-undef[24m[39m
+
+Search for the [4m[31mkeywords[39m[24m to learn more about each error.
+[2J[3J[HCompiling...
+[2J[3J[H[33mCompiled with warnings.[39m
+[33m[39m
+[7m./src/App.js[27m
+  [1mLine 7:10:[22m  'text' is assigned a value but never used  [33m[4mno-unused-vars[24m[39m
+
+Search for the [4m[33mkeywords[39m[24m to learn more about each warning.
+To ignore, add [36m// eslint-disable-next-line[39m to the line before.
+
+[2J[3J[HCompiling...
+[2J[3J[H[31mFailed to compile.[39m
+[31m[39m
+[7m./src/Home.js[27m
+  [1mLine 7:37:[22m  'container' is not defined  [31m[4mno-undef[24m[39m
+
+Search for the [4m[31mkeywords[39m[24m to learn more about each error.
+[2J[3J[HCompiling...
+[2J[3J[H[33mCompiled with warnings.[39m
+[33m[39m
+[7m./src/App.js[27m
+  [1mLine 7:10:[22m  'text' is assigned a value but never used  [33m[4mno-unused-vars[24m[39m
+
+Search for the [4m[33mkeywords[39m[24m to learn more about each warning.
+To ignore, add [36m// eslint-disable-next-line[39m to the line before.
+
+[2J[3J[HCompiling...
+[2J[3J[H[33mCompiled with warnings.[39m
+[33m[39m
+[7m./src/App.js[27m
+  [1mLine 7:10:[22m  'text' is assigned a value but never used  [33m[4mno-unused-vars[24m[39m
+
+Search for the [4m[33mkeywords[39m[24m to learn more about each warning.
+To ignore, add [36m// eslint-disable-next-line[39m to the line before.
+
+[2J[3J[HCompiling...
+[2J[3J[H[33mCompiled with warnings.[39m
+[33m[39m
+[7m./src/App.js[27m
+  [1mLine 7:10:[22m  'text' is assigned a value but never used  [33m[4mno-unused-vars[24m[39m
+
+Search for the [4m[33mkeywords[39m[24m to learn more about each warning.
+To ignore, add [36m// eslint-disable-next-line[39m to the line before.
+
+[2J[3J[HCompiling...
+[2J[3J[H[33mCompiled with warnings.[39m
+[33m[39m
+[7m./src/App.js[27m
+  [1mLine 7:10:[22m  'text' is assigned a value but never used  [33m[4mno-unused-vars[24m[39m
+
+Search for the [4m[33mkeywords[39m[24m to learn more about each warning.
+To ignore, add [36m// eslint-disable-next-line[39m to the line before.
+
+[2J[3J[HCompiling...
+[2J[3J[H[33mCompiled with warnings.[39m
+[33m[39m
+[7m./src/App.js[27m
+  [1mLine 7:10:[22m  'text' is assigned a value but never used  [33m[4mno-unused-vars[24m[39m
+
+Search for the [4m[33mkeywords[39m[24m to learn more about each warning.
+To ignore, add [36m// eslint-disable-next-line[39m to the line before.
+
+[2J[3J[HCompiling...
+[2J[3J[H[33mCompiled with warnings.[39m
+[33m[39m
+[7m./src/App.js[27m
+  [1mLine 7:10:[22m  'text' is assigned a value but never used  [33m[4mno-unused-vars[24m[39m
+
+Search for the [4m[33mkeywords[39m[24m to learn more about each warning.
+To ignore, add [36m// eslint-disable-next-line[39m to the line before.
+
+[2J[3J[HCompiling...
+[2J[3J[H[31mFailed to compile.[39m
+[31m[39m
+[7m./src/index.js[27m
+Module not found: Can't resolve 'bootstrap/dist/css/bootstrap.min.css' in '/Users/cindyzhang/Documents/personal-projects/webscrape-stackoverflow/client/src'
+[2J[3J[HCompiling...
+[2J[3J[H[31mFailed to compile.[39m
+[31m[39m
+[7m./src/index.js[27m
+Module not found: Can't resolve 'bootstrap/dist/css/bootstrap.min.css' in '/Users/cindyzhang/Documents/personal-projects/webscrape-stackoverflow/client/src'
+[2J[3J[HCompiling...
+[2J[3J[H[31mFailed to compile.[39m
+[31m[39m
+[7m./src/index.js[27m
+Module not found: Can't resolve 'bootstrap/dist/css/bootstrap.min.css' in '/Users/cindyzhang/Documents/personal-projects/webscrape-stackoverflow/client/src'
+[2J[3J[HCompiling...
+[2J[3J[H[31mFailed to compile.[39m
+[31m[39m
+[7m./src/index.js[27m
+Module not found: Can't resolve 'bootstrap/dist/css/bootstrap.min.css' in '/Users/cindyzhang/Documents/personal-projects/webscrape-stackoverflow/client/src'
+[37;40mnpm[0m [0m[31;40mERR![0m [0m[35mcode[0m ELIFECYCLE
+[0m[37;40mnpm[0m [0m[31;40mERR![0m [0m[35merrno[0m 1
+[0m[37;40mnpm[0m [0m[31;40mERR![0m[35m[0m client@0.1.0 start: `react-scripts start`
+[0m[37;40mnpm[0m [0m[31;40mERR![0m[35m[0m Exit status 1
+[0m[37;40mnpm[0m [0m[31;40mERR![0m[35m[0m 
+[0m[37;40mnpm[0m [0m[31;40mERR![0m[35m[0m Failed at the client@0.1.0 start script.
+[0m[37;40mnpm[0m [0m[31;40mERR![0m[35m[0m This is probably not a problem with npm. There is likely additional logging output above.
+[0m
+[37;40mnpm[0m [0m[31;40mERR![0m[35m[0m A complete log of this run can be found in:
+[0m[37;40mnpm[0m [0m[31;40mERR![0m[35m[0m     /Users/cindyzhang/.npm/_logs/2020-08-01T05_08_32_306Z-debug.log
+[0m[1m[7m%[27m[1m[0m                                                                                ]7;file://Cindys-MacBook-Pro.local/Users/cindyzhang/Documents/personal-projects/webscrape-stackoverflow/client[0m[27m[24m[Jcindyzhang ~/.../personal-projects/webscrape-stackoverflow/client $ [K[?2004hnpm start[?2004l
+
+> client@0.1.0 start /Users/cindyzhang/Documents/personal-projects/webscrape-stackoverflow/client
+> react-scripts start
+
+[34mℹ[39m [90m｢wds｣[39m: Project is running at http://192.168.1.105/
+[34mℹ[39m [90m｢wds｣[39m: webpack output is served from 
+[34mℹ[39m [90m｢wds｣[39m: Content not from webpack is served from /Users/cindyzhang/Documents/personal-projects/webscrape-stackoverflow/client/public
+[34mℹ[39m [90m｢wds｣[39m: 404s will fallback to /
+[2J[3J[H[36mStarting the development server...[39m
+[36m[39m
+[2J[3J[H[33mCompiled with warnings.[39m
+[33m[39m
+[7m./src/Home.js[27m
+  [1mLine 4:8:[22m  'Row' is defined but never used  [33m[4mno-unused-vars[24m[39m
+  [1mLine 5:8:[22m  'Col' is defined but never used  [33m[4mno-unused-vars[24m[39m
+
+[7m./src/App.js[27m
+  [1mLine 7:10:[22m  'text' is assigned a value but never used  [33m[4mno-unused-vars[24m[39m
+
+Search for the [4m[33mkeywords[39m[24m to learn more about each warning.
+To ignore, add [36m// eslint-disable-next-line[39m to the line before.
+
+[2J[3J[HCompiling...
+[2J[3J[H[33mCompiled with warnings.[39m
+[33m[39m
+[7m./src/Home.js[27m
+  [1mLine 4:8:[22m  'Row' is defined but never used  [33m[4mno-unused-vars[24m[39m
+  [1mLine 5:8:[22m  'Col' is defined but never used  [33m[4mno-unused-vars[24m[39m
+
+[7m./src/App.js[27m
+  [1mLine 7:10:[22m  'text' is assigned a value but never used  [33m[4mno-unused-vars[24m[39m
+
+Search for the [4m[33mkeywords[39m[24m to learn more about each warning.
+To ignore, add [36m// eslint-disable-next-line[39m to the line before.
+
+[2J[3J[H[31mFailed to compile.[39m
+[31m[39m
+[7m./src/index.css (./node_modules/css-loader/dist/cjs.js??ref--6-oneOf-3-1!./node_modules/postcss-loader/src??postcss!./src/index.css)[27m
+Error: ENOENT: no such file or directory, open '/Users/cindyzhang/Documents/personal-projects/webscrape-stackoverflow/client/src/index.css'
+[2J[3J[H[31mFailed to compile.[39m
+[31m[39m
+[7m./src/App.css (./node_modules/css-loader/dist/cjs.js??ref--6-oneOf-3-1!./node_modules/postcss-loader/src??postcss!./src/App.css)[27m
+Error: ENOENT: no such file or directory, open '/Users/cindyzhang/Documents/personal-projects/webscrape-stackoverflow/client/src/App.css'
+[2J[3J[HCompiling...
+[2J[3J[H[31mFailed to compile.[39m
+[31m[39m
+[7m./src/App.css (./node_modules/css-loader/dist/cjs.js??ref--6-oneOf-3-1!./node_modules/postcss-loader/src??postcss!./src/App.css)[27m
+Error: ENOENT: no such file or directory, open '/Users/cindyzhang/Documents/personal-projects/webscrape-stackoverflow/client/src/App.css'
+[2J[3J[HCompiling...
+[2J[3J[H[33mCompiled with warnings.[39m
+[33m[39m
+[7m./src/Home.js[27m
+  [1mLine 4:8:[22m  'Row' is defined but never used  [33m[4mno-unused-vars[24m[39m
+  [1mLine 5:8:[22m  'Col' is defined but never used  [33m[4mno-unused-vars[24m[39m
+
+[7m./src/App.js[27m
+  [1mLine 7:10:[22m  'text' is assigned a value but never used  [33m[4mno-unused-vars[24m[39m
+
+Search for the [4m[33mkeywords[39m[24m to learn more about each warning.
+To ignore, add [36m// eslint-disable-next-line[39m to the line before.
+
+[2J[3J[HCompiling...
+[2J[3J[H[33mCompiled with warnings.[39m
+[33m[39m
+[7m./src/Home.js[27m
+  [1mLine 4:8:[22m  'Row' is defined but never used  [33m[4mno-unused-vars[24m[39m
+  [1mLine 5:8:[22m  'Col' is defined but never used  [33m[4mno-unused-vars[24m[39m
+
+[7m./src/App.js[27m
+  [1mLine 7:10:[22m  'text' is assigned a value but never used  [33m[4mno-unused-vars[24m[39m
+
+Search for the [4m[33mkeywords[39m[24m to learn more about each warning.
+To ignore, add [36m// eslint-disable-next-line[39m to the line before.
+
+[2J[3J[HCompiling...
+[2J[3J[H[33mCompiled with warnings.[39m
+[33m[39m
+[7m./src/Home.js[27m
+  [1mLine 4:8:[22m  'Row' is defined but never used  [33m[4mno-unused-vars[24m[39m
+  [1mLine 5:8:[22m  'Col' is defined but never used  [33m[4mno-unused-vars[24m[39m
+
+[7m./src/App.js[27m
+  [1mLine 7:10:[22m  'text' is assigned a value but never used  [33m[4mno-unused-vars[24m[39m
+
+Search for the [4m[33mkeywords[39m[24m to learn more about each warning.
+To ignore, add [36m// eslint-disable-next-line[39m to the line before.
+
+[2J[3J[HCompiling...
+[2J[3J[H[31mFailed to compile.[39m
+[31m[39m
+[7m./src/Home.js[27m
+Module not found: Can't resolve './imgs/browse/svg' in '/Users/cindyzhang/Documents/personal-projects/webscrape-stackoverflow/client/src'
+[2J[3J[HCompiling...
+[2J[3J[H[33mCompiled with warnings.[39m
+[33m[39m
+[7m./src/App.js[27m
+  [1mLine 7:10:[22m  'text' is assigned a value but never used  [33m[4mno-unused-vars[24m[39m
+
+Search for the [4m[33mkeywords[39m[24m to learn more about each warning.
+To ignore, add [36m// eslint-disable-next-line[39m to the line before.
+
+[2J[3J[HCompiling...
+[2J[3J[H[33mCompiled with warnings.[39m
+[33m[39m
+[7m./src/App.js[27m
+  [1mLine 7:10:[22m  'text' is assigned a value but never used  [33m[4mno-unused-vars[24m[39m
+
+Search for the [4m[33mkeywords[39m[24m to learn more about each warning.
+To ignore, add [36m// eslint-disable-next-line[39m to the line before.
+
+[2J[3J[HCompiling...
+[2J[3J[H[33mCompiled with warnings.[39m
+[33m[39m
+[7m./src/App.js[27m
+  [1mLine 7:10:[22m  'text' is assigned a value but never used  [33m[4mno-unused-vars[24m[39m
+
+Search for the [4m[33mkeywords[39m[24m to learn more about each warning.
+To ignore, add [36m// eslint-disable-next-line[39m to the line before.
+
+[2J[3J[HCompiling...
+[2J[3J[H[33mCompiled with warnings.[39m
+[33m[39m
+[7m./src/App.js[27m
+  [1mLine 7:10:[22m  'text' is assigned a value but never used  [33m[4mno-unused-vars[24m[39m
+
+Search for the [4m[33mkeywords[39m[24m to learn more about each warning.
+To ignore, add [36m// eslint-disable-next-line[39m to the line before.
+
+[2J[3J[HCompiling...
+[2J[3J[H[33mCompiled with warnings.[39m
+[33m[39m
+[7m./src/App.js[27m
+  [1mLine 7:10:[22m  'text' is assigned a value but never used  [33m[4mno-unused-vars[24m[39m
+
+Search for the [4m[33mkeywords[39m[24m to learn more about each warning.
+To ignore, add [36m// eslint-disable-next-line[39m to the line before.
+
+[2J[3J[HCompiling...
+[2J[3J[H[33mCompiled with warnings.[39m
+[33m[39m
+[7m./src/App.js[27m
+  [1mLine 7:10:[22m  'text' is assigned a value but never used  [33m[4mno-unused-vars[24m[39m
+
+Search for the [4m[33mkeywords[39m[24m to learn more about each warning.
+To ignore, add [36m// eslint-disable-next-line[39m to the line before.
+
+[2J[3J[HCompiling...
+[2J[3J[H[33mCompiled with warnings.[39m
+[33m[39m
+[7m./src/App.js[27m
+  [1mLine 7:10:[22m  'text' is assigned a value but never used  [33m[4mno-unused-vars[24m[39m
+
+Search for the [4m[33mkeywords[39m[24m to learn more about each warning.
+To ignore, add [36m// eslint-disable-next-line[39m to the line before.
+
+[2J[3J[HCompiling...
+[2J[3J[H[33mCompiled with warnings.[39m
+[33m[39m
+[7m./src/App.js[27m
+  [1mLine 7:10:[22m  'text' is assigned a value but never used  [33m[4mno-unused-vars[24m[39m
+
+Search for the [4m[33mkeywords[39m[24m to learn more about each warning.
+To ignore, add [36m// eslint-disable-next-line[39m to the line before.
+
+[2J[3J[HCompiling...
+[2J[3J[H[33mCompiled with warnings.[39m
+[33m[39m
+[7m./src/App.js[27m
+  [1mLine 7:10:[22m  'text' is assigned a value but never used  [33m[4mno-unused-vars[24m[39m
+
+Search for the [4m[33mkeywords[39m[24m to learn more about each warning.
+To ignore, add [36m// eslint-disable-next-line[39m to the line before.
+
+[2J[3J[HCompiling...
+[2J[3J[H[33mCompiled with warnings.[39m
+[33m[39m
+[7m./src/App.js[27m
+  [1mLine 7:10:[22m  'text' is assigned a value but never used  [33m[4mno-unused-vars[24m[39m
+
+Search for the [4m[33mkeywords[39m[24m to learn more about each warning.
+To ignore, add [36m// eslint-disable-next-line[39m to the line before.
+
+[2J[3J[HCompiling...
+[2J[3J[H[33mCompiled with warnings.[39m
+[33m[39m
+[7m./src/App.js[27m
+  [1mLine 7:10:[22m  'text' is assigned a value but never used  [33m[4mno-unused-vars[24m[39m
+
+Search for the [4m[33mkeywords[39m[24m to learn more about each warning.
+To ignore, add [36m// eslint-disable-next-line[39m to the line before.
+
+[2J[3J[HCompiling...
+[2J[3J[H[33mCompiled with warnings.[39m
+[33m[39m
+[7m./src/App.js[27m
+  [1mLine 7:10:[22m  'text' is assigned a value but never used  [33m[4mno-unused-vars[24m[39m
+
+Search for the [4m[33mkeywords[39m[24m to learn more about each warning.
+To ignore, add [36m// eslint-disable-next-line[39m to the line before.
+
+[2J[3J[HCompiling...
+[2J[3J[H[33mCompiled with warnings.[39m
+[33m[39m
+[7m./src/App.js[27m
+  [1mLine 7:10:[22m  'text' is assigned a value but never used  [33m[4mno-unused-vars[24m[39m
+
+Search for the [4m[33mkeywords[39m[24m to learn more about each warning.
+To ignore, add [36m// eslint-disable-next-line[39m to the line before.
+
+[2J[3J[HCompiling...
+[2J[3J[H[33mCompiled with warnings.[39m
+[33m[39m
+[7m./src/App.js[27m
+  [1mLine 7:10:[22m  'text' is assigned a value but never used  [33m[4mno-unused-vars[24m[39m
+
+Search for the [4m[33mkeywords[39m[24m to learn more about each warning.
+To ignore, add [36m// eslint-disable-next-line[39m to the line before.
+
+[2J[3J[HCompiling...
+[2J[3J[H[33mCompiled with warnings.[39m
+[33m[39m
+[7m./src/App.js[27m
+  [1mLine 7:10:[22m  'text' is assigned a value but never used  [33m[4mno-unused-vars[24m[39m
+
+Search for the [4m[33mkeywords[39m[24m to learn more about each warning.
+To ignore, add [36m// eslint-disable-next-line[39m to the line before.
+
+[2J[3J[HCompiling...
+[2J[3J[H[31mFailed to compile.[39m
+[31m[39m
+[7m./src/Home.js[27m
+  [1mLine 14:8:[22m   'Form' is not defined  [31m[4mreact/jsx-no-undef[24m[39m
+  [1mLine 15:10:[22m  'Form' is not defined  [31m[4mreact/jsx-no-undef[24m[39m
+
+Search for the [4m[31mkeywords[39m[24m to learn more about each error.
+[2J[3J[HCompiling...
+[2J[3J[H[33mCompiled with warnings.[39m
+[33m[39m
+[7m./src/App.js[27m
+  [1mLine 7:10:[22m  'text' is assigned a value but never used  [33m[4mno-unused-vars[24m[39m
+
+Search for the [4m[33mkeywords[39m[24m to learn more about each warning.
+To ignore, add [36m// eslint-disable-next-line[39m to the line before.
+
+[2J[3J[HCompiling...
+[2J[3J[H[33mCompiled with warnings.[39m
+[33m[39m
+[7m./src/App.js[27m
+  [1mLine 7:10:[22m  'text' is assigned a value but never used  [33m[4mno-unused-vars[24m[39m
+
+Search for the [4m[33mkeywords[39m[24m to learn more about each warning.
+To ignore, add [36m// eslint-disable-next-line[39m to the line before.
+
+[2J[3J[HCompiling...
+[2J[3J[H[33mCompiled with warnings.[39m
+[33m[39m
+[7m./src/App.js[27m
+  [1mLine 7:10:[22m  'text' is assigned a value but never used  [33m[4mno-unused-vars[24m[39m
+
+Search for the [4m[33mkeywords[39m[24m to learn more about each warning.
+To ignore, add [36m// eslint-disable-next-line[39m to the line before.
+
+[2J[3J[HCompiling...
+[2J[3J[H[33mCompiled with warnings.[39m
+[33m[39m
+[7m./src/App.js[27m
+  [1mLine 7:10:[22m  'text' is assigned a value but never used  [33m[4mno-unused-vars[24m[39m
+
+Search for the [4m[33mkeywords[39m[24m to learn more about each warning.
+To ignore, add [36m// eslint-disable-next-line[39m to the line before.
+
+[2J[3J[HCompiling...
+[2J[3J[H[33mCompiled with warnings.[39m
+[33m[39m
+[7m./src/App.js[27m
+  [1mLine 7:10:[22m  'text' is assigned a value but never used  [33m[4mno-unused-vars[24m[39m
+
+Search for the [4m[33mkeywords[39m[24m to learn more about each warning.
+To ignore, add [36m// eslint-disable-next-line[39m to the line before.
+
+[2J[3J[HCompiling...
+[2J[3J[H[33mCompiled with warnings.[39m
+[33m[39m
+[7m./src/App.js[27m
+  [1mLine 7:10:[22m  'text' is assigned a value but never used  [33m[4mno-unused-vars[24m[39m
+
+Search for the [4m[33mkeywords[39m[24m to learn more about each warning.
+To ignore, add [36m// eslint-disable-next-line[39m to the line before.
+
+[2J[3J[HCompiling...
+[2J[3J[H[33mCompiled with warnings.[39m
+[33m[39m
+[7m./src/App.js[27m
+  [1mLine 7:10:[22m  'text' is assigned a value but never used  [33m[4mno-unused-vars[24m[39m
+
+Search for the [4m[33mkeywords[39m[24m to learn more about each warning.
+To ignore, add [36m// eslint-disable-next-line[39m to the line before.
+
+[2J[3J[HCompiling...
+[2J[3J[H[33mCompiled with warnings.[39m
+[33m[39m
+[7m./src/App.js[27m
+  [1mLine 7:10:[22m  'text' is assigned a value but never used  [33m[4mno-unused-vars[24m[39m
+
+Search for the [4m[33mkeywords[39m[24m to learn more about each warning.
+To ignore, add [36m// eslint-disable-next-line[39m to the line before.
+
+[2J[3J[HCompiling...
+[2J[3J[H[33mCompiled with warnings.[39m
+[33m[39m
+[7m./src/App.js[27m
+  [1mLine 7:10:[22m  'text' is assigned a value but never used  [33m[4mno-unused-vars[24m[39m
+
+Search for the [4m[33mkeywords[39m[24m to learn more about each warning.
+To ignore, add [36m// eslint-disable-next-line[39m to the line before.
+
+[2J[3J[HCompiling...
+[2J[3J[H[33mCompiled with warnings.[39m
+[33m[39m
+[7m./src/App.js[27m
+  [1mLine 7:10:[22m  'text' is assigned a value but never used  [33m[4mno-unused-vars[24m[39m
+
+Search for the [4m[33mkeywords[39m[24m to learn more about each warning.
+To ignore, add [36m// eslint-disable-next-line[39m to the line before.
+
+[2J[3J[HCompiling...
+[2J[3J[H[33mCompiled with warnings.[39m
+[33m[39m
+[7m./src/App.js[27m
+  [1mLine 7:10:[22m  'text' is assigned a value but never used  [33m[4mno-unused-vars[24m[39m
+
+Search for the [4m[33mkeywords[39m[24m to learn more about each warning.
+To ignore, add [36m// eslint-disable-next-line[39m to the line before.
+
+[2J[3J[HCompiling...
+[2J[3J[H[33mCompiled with warnings.[39m
+[33m[39m
+[7m./src/App.js[27m
+  [1mLine 7:10:[22m  'text' is assigned a value but never used  [33m[4mno-unused-vars[24m[39m
+
+Search for the [4m[33mkeywords[39m[24m to learn more about each warning.
+To ignore, add [36m// eslint-disable-next-line[39m to the line before.
+
+[2J[3J[HCompiling...
+[2J[3J[H[33mCompiled with warnings.[39m
+[33m[39m
+[7m./src/App.js[27m
+  [1mLine 7:10:[22m  'text' is assigned a value but never used  [33m[4mno-unused-vars[24m[39m
+
+Search for the [4m[33mkeywords[39m[24m to learn more about each warning.
+To ignore, add [36m// eslint-disable-next-line[39m to the line before.
+
+[2J[3J[HCompiling...
+[2J[3J[H[33mCompiled with warnings.[39m
+[33m[39m
+[7m./src/App.js[27m
+  [1mLine 7:10:[22m  'text' is assigned a value but never used  [33m[4mno-unused-vars[24m[39m
+
+Search for the [4m[33mkeywords[39m[24m to learn more about each warning.
+To ignore, add [36m// eslint-disable-next-line[39m to the line before.
+
+[2J[3J[HCompiling...
+[2J[3J[H[33mCompiled with warnings.[39m
+[33m[39m
+[7m./src/App.js[27m
+  [1mLine 7:10:[22m  'text' is assigned a value but never used  [33m[4mno-unused-vars[24m[39m
+
+Search for the [4m[33mkeywords[39m[24m to learn more about each warning.
+To ignore, add [36m// eslint-disable-next-line[39m to the line before.
+
+[2J[3J[HCompiling...
+[2J[3J[H[33mCompiled with warnings.[39m
+[33m[39m
+[7m./src/App.js[27m
+  [1mLine 7:10:[22m  'text' is assigned a value but never used  [33m[4mno-unused-vars[24m[39m
+
+Search for the [4m[33mkeywords[39m[24m to learn more about each warning.
+To ignore, add [36m// eslint-disable-next-line[39m to the line before.
+
+[2J[3J[HCompiling...
+[2J[3J[H[33mCompiled with warnings.[39m
+[33m[39m
+[7m./src/App.js[27m
+  [1mLine 7:10:[22m  'text' is assigned a value but never used  [33m[4mno-unused-vars[24m[39m
+
+Search for the [4m[33mkeywords[39m[24m to learn more about each warning.
+To ignore, add [36m// eslint-disable-next-line[39m to the line before.
+
+[2J[3J[HCompiling...
+[2J[3J[H[33mCompiled with warnings.[39m
+[33m[39m
+[7m./src/App.js[27m
+  [1mLine 7:10:[22m  'text' is assigned a value but never used  [33m[4mno-unused-vars[24m[39m
+
+Search for the [4m[33mkeywords[39m[24m to learn more about each warning.
+To ignore, add [36m// eslint-disable-next-line[39m to the line before.
+
+[2J[3J[HCompiling...
+[2J[3J[H[33mCompiled with warnings.[39m
+[33m[39m
+[7m./src/App.js[27m
+  [1mLine 7:10:[22m  'text' is assigned a value but never used  [33m[4mno-unused-vars[24m[39m
+
+Search for the [4m[33mkeywords[39m[24m to learn more about each warning.
+To ignore, add [36m// eslint-disable-next-line[39m to the line before.
+
+[2J[3J[HCompiling...
+[2J[3J[H[33mCompiled with warnings.[39m
+[33m[39m
+[7m./src/App.js[27m
+  [1mLine 7:10:[22m  'text' is assigned a value but never used  [33m[4mno-unused-vars[24m[39m
+
+Search for the [4m[33mkeywords[39m[24m to learn more about each warning.
+To ignore, add [36m// eslint-disable-next-line[39m to the line before.
+
+[2J[3J[HCompiling...
+[2J[3J[H[33mCompiled with warnings.[39m
+[33m[39m
+[7m./src/App.js[27m
+  [1mLine 7:10:[22m  'text' is assigned a value but never used  [33m[4mno-unused-vars[24m[39m
+
+Search for the [4m[33mkeywords[39m[24m to learn more about each warning.
+To ignore, add [36m// eslint-disable-next-line[39m to the line before.
+
+[2J[3J[HCompiling...
+[2J[3J[H[33mCompiled with warnings.[39m
+[33m[39m
+[7m./src/App.js[27m
+  [1mLine 7:10:[22m  'text' is assigned a value but never used  [33m[4mno-unused-vars[24m[39m
+
+Search for the [4m[33mkeywords[39m[24m to learn more about each warning.
+To ignore, add [36m// eslint-disable-next-line[39m to the line before.
+
+[2J[3J[HCompiling...
+[2J[3J[H[33mCompiled with warnings.[39m
+[33m[39m
+[7m./src/App.js[27m
+  [1mLine 7:10:[22m  'text' is assigned a value but never used  [33m[4mno-unused-vars[24m[39m
+
+Search for the [4m[33mkeywords[39m[24m to learn more about each warning.
+To ignore, add [36m// eslint-disable-next-line[39m to the line before.
+
+[2J[3J[HCompiling...
+[2J[3J[H[33mCompiled with warnings.[39m
+[33m[39m
+[7m./src/App.js[27m
+  [1mLine 7:10:[22m  'text' is assigned a value but never used  [33m[4mno-unused-vars[24m[39m
+
+Search for the [4m[33mkeywords[39m[24m to learn more about each warning.
+To ignore, add [36m// eslint-disable-next-line[39m to the line before.
+
+[2J[3J[HCompiling...
+[2J[3J[H[33mCompiled with warnings.[39m
+[33m[39m
+[7m./src/App.js[27m
+  [1mLine 7:10:[22m  'text' is assigned a value but never used  [33m[4mno-unused-vars[24m[39m
+
+Search for the [4m[33mkeywords[39m[24m to learn more about each warning.
+To ignore, add [36m// eslint-disable-next-line[39m to the line before.
+
+[2J[3J[HCompiling...
+[2J[3J[H[33mCompiled with warnings.[39m
+[33m[39m
+[7m./src/App.js[27m
+  [1mLine 7:10:[22m  'text' is assigned a value but never used  [33m[4mno-unused-vars[24m[39m
+
+Search for the [4m[33mkeywords[39m[24m to learn more about each warning.
+To ignore, add [36m// eslint-disable-next-line[39m to the line before.
+
+[2J[3J[HCompiling...
+[2J[3J[H[33mCompiled with warnings.[39m
+[33m[39m
+[7m./src/App.js[27m
+  [1mLine 7:10:[22m  'text' is assigned a value but never used  [33m[4mno-unused-vars[24m[39m
+
+Search for the [4m[33mkeywords[39m[24m to learn more about each warning.
+To ignore, add [36m// eslint-disable-next-line[39m to the line before.
+
+[2J[3J[HCompiling...
+[2J[3J[H[33mCompiled with warnings.[39m
+[33m[39m
+[7m./src/App.js[27m
+  [1mLine 7:10:[22m  'text' is assigned a value but never used  [33m[4mno-unused-vars[24m[39m
+
+Search for the [4m[33mkeywords[39m[24m to learn more about each warning.
+To ignore, add [36m// eslint-disable-next-line[39m to the line before.
+
+[2J[3J[HCompiling...
+[2J[3J[H[33mCompiled with warnings.[39m
+[33m[39m
+[7m./src/App.js[27m
+  [1mLine 7:10:[22m  'text' is assigned a value but never used  [33m[4mno-unused-vars[24m[39m
+
+Search for the [4m[33mkeywords[39m[24m to learn more about each warning.
+To ignore, add [36m// eslint-disable-next-line[39m to the line before.
+
+[2J[3J[HCompiling...
+[2J[3J[H[33mCompiled with warnings.[39m
+[33m[39m
+[7m./src/App.js[27m
+  [1mLine 7:10:[22m  'text' is assigned a value but never used  [33m[4mno-unused-vars[24m[39m
+
+Search for the [4m[33mkeywords[39m[24m to learn more about each warning.
+To ignore, add [36m// eslint-disable-next-line[39m to the line before.
+
+[2J[3J[HCompiling...
+[2J[3J[H[33mCompiled with warnings.[39m
+[33m[39m
+[7m./src/App.js[27m
+  [1mLine 7:10:[22m  'text' is assigned a value but never used  [33m[4mno-unused-vars[24m[39m
+
+Search for the [4m[33mkeywords[39m[24m to learn more about each warning.
+To ignore, add [36m// eslint-disable-next-line[39m to the line before.
+
+[2J[3J[HCompiling...
+[2J[3J[H[33mCompiled with warnings.[39m
+[33m[39m
+[7m./src/App.js[27m
+  [1mLine 7:10:[22m  'text' is assigned a value but never used  [33m[4mno-unused-vars[24m[39m
+
+Search for the [4m[33mkeywords[39m[24m to learn more about each warning.
+To ignore, add [36m// eslint-disable-next-line[39m to the line before.
+
+[2J[3J[HCompiling...
+[2J[3J[H[31mFailed to compile.[39m
+[31m[39m
+[7m./src/Home.js[27m
+  [1mLine 31:9:[22m  Parsing error: Expected corresponding JSX closing tag for <Container>
+
+[0m [90m 29 | [39m            [33m<[39m[33m/[39m[33mCol[39m[33m>[39m[0m
+[0m [90m 30 | [39m          [33m<[39m[33m/[39m[33mRow[39m[33m>[39m[0m
+[0m[31m[1m>[22m[39m[90m 31 | [39m        [33m<[39m[33m/[39m[33mdiv[39m[33m>[39m[0m
+[0m [90m    | [39m        [31m[1m^[22m[39m[0m
+[0m [90m 32 | [39m      [33m<[39m[33m/[39m[33mContainer[39m[33m>[39m[0m
+[0m [90m 33 | [39m    [33m<[39m[33m/[39m[33mdiv[39m[33m>[39m[0m
+[0m [90m 34 | [39m  )[0m
+[2J[3J[HCompiling...
+[2J[3J[H[33mCompiled with warnings.[39m
+[33m[39m
+[7m./src/App.js[27m
+  [1mLine 7:10:[22m  'text' is assigned a value but never used  [33m[4mno-unused-vars[24m[39m
+
+Search for the [4m[33mkeywords[39m[24m to learn more about each warning.
+To ignore, add [36m// eslint-disable-next-line[39m to the line before.
+
+[2J[3J[HCompiling...
+[2J[3J[H[33mCompiled with warnings.[39m
+[33m[39m
+[7m./src/App.js[27m
+  [1mLine 7:10:[22m  'text' is assigned a value but never used  [33m[4mno-unused-vars[24m[39m
+
+Search for the [4m[33mkeywords[39m[24m to learn more about each warning.
+To ignore, add [36m// eslint-disable-next-line[39m to the line before.
+
+[2J[3J[HCompiling...
+[2J[3J[H[33mCompiled with warnings.[39m
+[33m[39m
+[7m./src/App.js[27m
+  [1mLine 7:10:[22m  'text' is assigned a value but never used  [33m[4mno-unused-vars[24m[39m
+
+Search for the [4m[33mkeywords[39m[24m to learn more about each warning.
+To ignore, add [36m// eslint-disable-next-line[39m to the line before.
+
+[2J[3J[HCompiling...
+[2J[3J[H[33mCompiled with warnings.[39m
+[33m[39m
+[7m./src/App.js[27m
+  [1mLine 7:10:[22m  'text' is assigned a value but never used  [33m[4mno-unused-vars[24m[39m
+
+Search for the [4m[33mkeywords[39m[24m to learn more about each warning.
+To ignore, add [36m// eslint-disable-next-line[39m to the line before.
+
+[2J[3J[HCompiling...
+[2J[3J[H[33mCompiled with warnings.[39m
+[33m[39m
+[7m./src/App.js[27m
+  [1mLine 7:10:[22m  'text' is assigned a value but never used  [33m[4mno-unused-vars[24m[39m
+
+Search for the [4m[33mkeywords[39m[24m to learn more about each warning.
+To ignore, add [36m// eslint-disable-next-line[39m to the line before.
+
+[2J[3J[HCompiling...
+[2J[3J[H[33mCompiled with warnings.[39m
+[33m[39m
+[7m./src/App.js[27m
+  [1mLine 7:10:[22m  'text' is assigned a value but never used  [33m[4mno-unused-vars[24m[39m
+
+Search for the [4m[33mkeywords[39m[24m to learn more about each warning.
+To ignore, add [36m// eslint-disable-next-line[39m to the line before.
+
+[2J[3J[HCompiling...
+[2J[3J[H[33mCompiled with warnings.[39m
+[33m[39m
+[7m./src/App.js[27m
+  [1mLine 7:10:[22m  'text' is assigned a value but never used  [33m[4mno-unused-vars[24m[39m
+
+Search for the [4m[33mkeywords[39m[24m to learn more about each warning.
+To ignore, add [36m// eslint-disable-next-line[39m to the line before.
+
+[2J[3J[HCompiling...
+[2J[3J[H[33mCompiled with warnings.[39m
+[33m[39m
+[7m./src/App.js[27m
+  [1mLine 7:10:[22m  'text' is assigned a value but never used  [33m[4mno-unused-vars[24m[39m
+
+Search for the [4m[33mkeywords[39m[24m to learn more about each warning.
+To ignore, add [36m// eslint-disable-next-line[39m to the line before.
+
+[2J[3J[HCompiling...
+[2J[3J[H[33mCompiled with warnings.[39m
+[33m[39m
+[7m./src/App.js[27m
+  [1mLine 7:10:[22m  'text' is assigned a value but never used  [33m[4mno-unused-vars[24m[39m
+
+Search for the [4m[33mkeywords[39m[24m to learn more about each warning.
+To ignore, add [36m// eslint-disable-next-line[39m to the line before.
+
+[2J[3J[HCompiling...
+[2J[3J[H[33mCompiled with warnings.[39m
+[33m[39m
+[7m./src/App.js[27m
+  [1mLine 7:10:[22m  'text' is assigned a value but never used  [33m[4mno-unused-vars[24m[39m
+
+Search for the [4m[33mkeywords[39m[24m to learn more about each warning.
+To ignore, add [36m// eslint-disable-next-line[39m to the line before.
+
+[2J[3J[HCompiling...
+[2J[3J[H[33mCompiled with warnings.[39m
+[33m[39m
+[7m./src/App.js[27m
+  [1mLine 7:10:[22m  'text' is assigned a value but never used  [33m[4mno-unused-vars[24m[39m
+
+Search for the [4m[33mkeywords[39m[24m to learn more about each warning.
+To ignore, add [36m// eslint-disable-next-line[39m to the line before.
+
+[2J[3J[HCompiling...
+[2J[3J[H[33mCompiled with warnings.[39m
+[33m[39m
+[7m./src/App.js[27m
+  [1mLine 7:10:[22m  'text' is assigned a value but never used  [33m[4mno-unused-vars[24m[39m
+
+Search for the [4m[33mkeywords[39m[24m to learn more about each warning.
+To ignore, add [36m// eslint-disable-next-line[39m to the line before.
+
+[2J[3J[HCompiling...
+[2J[3J[H[33mCompiled with warnings.[39m
+[33m[39m
+[7m./src/App.js[27m
+  [1mLine 7:10:[22m  'text' is assigned a value but never used  [33m[4mno-unused-vars[24m[39m
+
+Search for the [4m[33mkeywords[39m[24m to learn more about each warning.
+To ignore, add [36m// eslint-disable-next-line[39m to the line before.
+
+[2J[3J[HCompiling...
+[2J[3J[H[33mCompiled with warnings.[39m
+[33m[39m
+[7m./src/App.js[27m
+  [1mLine 7:10:[22m  'text' is assigned a value but never used  [33m[4mno-unused-vars[24m[39m
+
+Search for the [4m[33mkeywords[39m[24m to learn more about each warning.
+To ignore, add [36m// eslint-disable-next-line[39m to the line before.
+
+[2J[3J[HCompiling...
+[2J[3J[H[33mCompiled with warnings.[39m
+[33m[39m
+[7m./src/App.js[27m
+  [1mLine 7:10:[22m  'text' is assigned a value but never used  [33m[4mno-unused-vars[24m[39m
+
+Search for the [4m[33mkeywords[39m[24m to learn more about each warning.
+To ignore, add [36m// eslint-disable-next-line[39m to the line before.
+
+[2J[3J[HCompiling...
+[2J[3J[H[33mCompiled with warnings.[39m
+[33m[39m
+[7m./src/App.js[27m
+  [1mLine 7:10:[22m  'text' is assigned a value but never used  [33m[4mno-unused-vars[24m[39m
+
+Search for the [4m[33mkeywords[39m[24m to learn more about each warning.
+To ignore, add [36m// eslint-disable-next-line[39m to the line before.
+
+[2J[3J[HCompiling...
+[2J[3J[H[33mCompiled with warnings.[39m
+[33m[39m
+[7m./src/App.js[27m
+  [1mLine 7:10:[22m  'text' is assigned a value but never used  [33m[4mno-unused-vars[24m[39m
+
+Search for the [4m[33mkeywords[39m[24m to learn more about each warning.
+To ignore, add [36m// eslint-disable-next-line[39m to the line before.
+
+[2J[3J[HCompiling...
+[2J[3J[H[33mCompiled with warnings.[39m
+[33m[39m
+[7m./src/App.js[27m
+  [1mLine 7:10:[22m  'text' is assigned a value but never used  [33m[4mno-unused-vars[24m[39m
+
+Search for the [4m[33mkeywords[39m[24m to learn more about each warning.
+To ignore, add [36m// eslint-disable-next-line[39m to the line before.
+
+[2J[3J[HCompiling...
+[2J[3J[H[33mCompiled with warnings.[39m
+[33m[39m
+[7m./src/App.js[27m
+  [1mLine 7:10:[22m  'text' is assigned a value but never used  [33m[4mno-unused-vars[24m[39m
+
+Search for the [4m[33mkeywords[39m[24m to learn more about each warning.
+To ignore, add [36m// eslint-disable-next-line[39m to the line before.
+
+[2J[3J[HCompiling...
+[2J[3J[H[33mCompiled with warnings.[39m
+[33m[39m
+[7m./src/App.js[27m
+  [1mLine 7:10:[22m  'text' is assigned a value but never used  [33m[4mno-unused-vars[24m[39m
+
+Search for the [4m[33mkeywords[39m[24m to learn more about each warning.
+To ignore, add [36m// eslint-disable-next-line[39m to the line before.
+
+[2J[3J[HCompiling...
+[2J[3J[H[33mCompiled with warnings.[39m
+[33m[39m
+[7m./src/App.js[27m
+  [1mLine 7:10:[22m  'text' is assigned a value but never used  [33m[4mno-unused-vars[24m[39m
+
+Search for the [4m[33mkeywords[39m[24m to learn more about each warning.
+To ignore, add [36m// eslint-disable-next-line[39m to the line before.
+
+[2J[3J[HCompiling...
+[2J[3J[H[33mCompiled with warnings.[39m
+[33m[39m
+[7m./src/App.js[27m
+  [1mLine 7:10:[22m  'text' is assigned a value but never used  [33m[4mno-unused-vars[24m[39m
+
+Search for the [4m[33mkeywords[39m[24m to learn more about each warning.
+To ignore, add [36m// eslint-disable-next-line[39m to the line before.
+
+[2J[3J[HCompiling...
+[2J[3J[H[33mCompiled with warnings.[39m
+[33m[39m
+[7m./src/App.js[27m
+  [1mLine 7:10:[22m  'text' is assigned a value but never used  [33m[4mno-unused-vars[24m[39m
+
+Search for the [4m[33mkeywords[39m[24m to learn more about each warning.
+To ignore, add [36m// eslint-disable-next-line[39m to the line before.
+
+[2J[3J[HCompiling...
+[2J[3J[H[33mCompiled with warnings.[39m
+[33m[39m
+[7m./src/App.js[27m
+  [1mLine 7:10:[22m  'text' is assigned a value but never used  [33m[4mno-unused-vars[24m[39m
+
+Search for the [4m[33mkeywords[39m[24m to learn more about each warning.
+To ignore, add [36m// eslint-disable-next-line[39m to the line before.
+
+[2J[3J[HCompiling...
+[2J[3J[H[33mCompiled with warnings.[39m
+[33m[39m
+[7m./src/App.js[27m
+  [1mLine 7:10:[22m  'text' is assigned a value but never used  [33m[4mno-unused-vars[24m[39m
+
+Search for the [4m[33mkeywords[39m[24m to learn more about each warning.
+To ignore, add [36m// eslint-disable-next-line[39m to the line before.
+
+[2J[3J[HCompiling...
+[2J[3J[H[33mCompiled with warnings.[39m
+[33m[39m
+[7m./src/App.js[27m
+  [1mLine 7:10:[22m  'text' is assigned a value but never used  [33m[4mno-unused-vars[24m[39m
+
+Search for the [4m[33mkeywords[39m[24m to learn more about each warning.
+To ignore, add [36m// eslint-disable-next-line[39m to the line before.
+
+[2J[3J[HCompiling...
+[2J[3J[H[33mCompiled with warnings.[39m
+[33m[39m
+[7m./src/App.js[27m
+  [1mLine 7:10:[22m  'text' is assigned a value but never used  [33m[4mno-unused-vars[24m[39m
+
+Search for the [4m[33mkeywords[39m[24m to learn more about each warning.
+To ignore, add [36m// eslint-disable-next-line[39m to the line before.
+
+[2J[3J[HCompiling...
+[2J[3J[H[33mCompiled with warnings.[39m
+[33m[39m
+[7m./src/App.js[27m
+  [1mLine 7:10:[22m  'text' is assigned a value but never used  [33m[4mno-unused-vars[24m[39m
+
+Search for the [4m[33mkeywords[39m[24m to learn more about each warning.
+To ignore, add [36m// eslint-disable-next-line[39m to the line before.
+
+[2J[3J[HCompiling...
+[2J[3J[H[33mCompiled with warnings.[39m
+[33m[39m
+[7m./src/App.js[27m
+  [1mLine 7:10:[22m  'text' is assigned a value but never used  [33m[4mno-unused-vars[24m[39m
+
+Search for the [4m[33mkeywords[39m[24m to learn more about each warning.
+To ignore, add [36m// eslint-disable-next-line[39m to the line before.
+
+[2J[3J[HCompiling...
+[2J[3J[H[33mCompiled with warnings.[39m
+[33m[39m
+[7m./src/App.js[27m
+  [1mLine 7:10:[22m  'text' is assigned a value but never used  [33m[4mno-unused-vars[24m[39m
+
+Search for the [4m[33mkeywords[39m[24m to learn more about each warning.
+To ignore, add [36m// eslint-disable-next-line[39m to the line before.
+
+[2J[3J[HCompiling...
+[2J[3J[H[33mCompiled with warnings.[39m
+[33m[39m
+[7m./src/App.js[27m
+  [1mLine 7:10:[22m  'text' is assigned a value but never used  [33m[4mno-unused-vars[24m[39m
+
+Search for the [4m[33mkeywords[39m[24m to learn more about each warning.
+To ignore, add [36m// eslint-disable-next-line[39m to the line before.
+
+[2J[3J[HCompiling...
+[2J[3J[H[33mCompiled with warnings.[39m
+[33m[39m
+[7m./src/App.js[27m
+  [1mLine 7:10:[22m  'text' is assigned a value but never used  [33m[4mno-unused-vars[24m[39m
+
+Search for the [4m[33mkeywords[39m[24m to learn more about each warning.
+To ignore, add [36m// eslint-disable-next-line[39m to the line before.
+
+[2J[3J[HCompiling...
+[2J[3J[H[31mFailed to compile.[39m
+[31m[39m
+[7m./src/App.js[27m
+  [1mLine 15:8:[22m   'Navbar' is not defined  [31m[4mreact/jsx-no-undef[24m[39m
+  [1mLine 16:10:[22m  'Navbar' is not defined  [31m[4mreact/jsx-no-undef[24m[39m
+
+Search for the [4m[31mkeywords[39m[24m to learn more about each error.
+[2J[3J[HCompiling...
+[2J[3J[H[31mFailed to compile.[39m
+[31m[39m
+[7m./src/App.js[27m
+  [1mLine 15:8:[22m   'Navbar' is not defined  [31m[4mreact/jsx-no-undef[24m[39m
+  [1mLine 16:10:[22m  'Navbar' is not defined  [31m[4mreact/jsx-no-undef[24m[39m
+
+Search for the [4m[31mkeywords[39m[24m to learn more about each error.
+[2J[3J[HCompiling...
+[2J[3J[H[31mFailed to compile.[39m
+[31m[39m
+[7m./src/App.js[27m
+  [1mLine 15:8:[22m   'Navbar' is not defined  [31m[4mreact/jsx-no-undef[24m[39m
+  [1mLine 16:10:[22m  'Navbar' is not defined  [31m[4mreact/jsx-no-undef[24m[39m
+
+Search for the [4m[31mkeywords[39m[24m to learn more about each error.
+[2J[3J[HCompiling...
+[2J[3J[H[33mCompiled with warnings.[39m
+[33m[39m
+[7m./src/App.js[27m
+  [1mLine 8:10:[22m  'text' is assigned a value but never used  [33m[4mno-unused-vars[24m[39m
+
+Search for the [4m[33mkeywords[39m[24m to learn more about each warning.
+To ignore, add [36m// eslint-disable-next-line[39m to the line before.
+
+[2J[3J[HCompiling...
+[2J[3J[H[33mCompiled with warnings.[39m
+[33m[39m
+[7m./src/App.js[27m
+  [1mLine 8:10:[22m  'text' is assigned a value but never used  [33m[4mno-unused-vars[24m[39m
+
+Search for the [4m[33mkeywords[39m[24m to learn more about each warning.
+To ignore, add [36m// eslint-disable-next-line[39m to the line before.
+
+[2J[3J[HCompiling...
+[2J[3J[H[33mCompiled with warnings.[39m
+[33m[39m
+[7m./src/App.js[27m
+  [1mLine 8:10:[22m  'text' is assigned a value but never used  [33m[4mno-unused-vars[24m[39m
+
+Search for the [4m[33mkeywords[39m[24m to learn more about each warning.
+To ignore, add [36m// eslint-disable-next-line[39m to the line before.
+
+[2J[3J[HCompiling...
+[2J[3J[H[33mCompiled with warnings.[39m
+[33m[39m
+[7m./src/App.js[27m
+  [1mLine 8:10:[22m  'text' is assigned a value but never used  [33m[4mno-unused-vars[24m[39m
+
+Search for the [4m[33mkeywords[39m[24m to learn more about each warning.
+To ignore, add [36m// eslint-disable-next-line[39m to the line before.
+
+[2J[3J[HCompiling...
+[2J[3J[H[33mCompiled with warnings.[39m
+[33m[39m
+[7m./src/App.js[27m
+  [1mLine 8:10:[22m  'text' is assigned a value but never used  [33m[4mno-unused-vars[24m[39m
+
+Search for the [4m[33mkeywords[39m[24m to learn more about each warning.
+To ignore, add [36m// eslint-disable-next-line[39m to the line before.
+
+[2J[3J[HCompiling...
+[2J[3J[H[33mCompiled with warnings.[39m
+[33m[39m
+[7m./src/App.js[27m
+  [1mLine 8:10:[22m  'text' is assigned a value but never used  [33m[4mno-unused-vars[24m[39m
+
+Search for the [4m[33mkeywords[39m[24m to learn more about each warning.
+To ignore, add [36m// eslint-disable-next-line[39m to the line before.
+
+[2J[3J[HCompiling...
+[2J[3J[H[33mCompiled with warnings.[39m
+[33m[39m
+[7m./src/App.js[27m
+  [1mLine 8:10:[22m  'text' is assigned a value but never used  [33m[4mno-unused-vars[24m[39m
+
+Search for the [4m[33mkeywords[39m[24m to learn more about each warning.
+To ignore, add [36m// eslint-disable-next-line[39m to the line before.
+
+[2J[3J[HCompiling...
+[2J[3J[H[33mCompiled with warnings.[39m
+[33m[39m
+[7m./src/App.js[27m
+  [1mLine 8:10:[22m  'text' is assigned a value but never used  [33m[4mno-unused-vars[24m[39m
+
+Search for the [4m[33mkeywords[39m[24m to learn more about each warning.
+To ignore, add [36m// eslint-disable-next-line[39m to the line before.
+
+[2J[3J[HCompiling...
+[2J[3J[H[33mCompiled with warnings.[39m
+[33m[39m
+[7m./src/App.js[27m
+  [1mLine 8:10:[22m  'text' is assigned a value but never used  [33m[4mno-unused-vars[24m[39m
+
+Search for the [4m[33mkeywords[39m[24m to learn more about each warning.
+To ignore, add [36m// eslint-disable-next-line[39m to the line before.
+
+[2J[3J[HCompiling...
+[2J[3J[H[33mCompiled with warnings.[39m
+[33m[39m
+[7m./src/App.js[27m
+  [1mLine 8:10:[22m  'text' is assigned a value but never used  [33m[4mno-unused-vars[24m[39m
+
+Search for the [4m[33mkeywords[39m[24m to learn more about each warning.
+To ignore, add [36m// eslint-disable-next-line[39m to the line before.
+
+[2J[3J[HCompiling...
+[2J[3J[H[33mCompiled with warnings.[39m
+[33m[39m
+[7m./src/App.js[27m
+  [1mLine 8:10:[22m  'text' is assigned a value but never used  [33m[4mno-unused-vars[24m[39m
+
+Search for the [4m[33mkeywords[39m[24m to learn more about each warning.
+To ignore, add [36m// eslint-disable-next-line[39m to the line before.
+
+[2J[3J[HCompiling...
+[2J[3J[H[33mCompiled with warnings.[39m
+[33m[39m
+[7m./src/App.js[27m
+  [1mLine 8:10:[22m  'text' is assigned a value but never used  [33m[4mno-unused-vars[24m[39m
+
+Search for the [4m[33mkeywords[39m[24m to learn more about each warning.
+To ignore, add [36m// eslint-disable-next-line[39m to the line before.
+
+[2J[3J[HCompiling...
+[2J[3J[H[33mCompiled with warnings.[39m
+[33m[39m
+[7m./src/App.js[27m
+  [1mLine 8:10:[22m  'text' is assigned a value but never used  [33m[4mno-unused-vars[24m[39m
+
+Search for the [4m[33mkeywords[39m[24m to learn more about each warning.
+To ignore, add [36m// eslint-disable-next-line[39m to the line before.
+
+[2J[3J[HCompiling...
+[2J[3J[H[33mCompiled with warnings.[39m
+[33m[39m
+[7m./src/App.js[27m
+  [1mLine 8:10:[22m  'text' is assigned a value but never used  [33m[4mno-unused-vars[24m[39m
+
+Search for the [4m[33mkeywords[39m[24m to learn more about each warning.
+To ignore, add [36m// eslint-disable-next-line[39m to the line before.
+
+[2J[3J[HCompiling...
+[2J[3J[H[33mCompiled with warnings.[39m
+[33m[39m
+[7m./src/App.js[27m
+  [1mLine 8:10:[22m  'text' is assigned a value but never used  [33m[4mno-unused-vars[24m[39m
+
+Search for the [4m[33mkeywords[39m[24m to learn more about each warning.
+To ignore, add [36m// eslint-disable-next-line[39m to the line before.
+
+[2J[3J[HCompiling...
+[2J[3J[H[33mCompiled with warnings.[39m
+[33m[39m
+[7m./src/App.js[27m
+  [1mLine 8:10:[22m  'text' is assigned a value but never used  [33m[4mno-unused-vars[24m[39m
+
+Search for the [4m[33mkeywords[39m[24m to learn more about each warning.
+To ignore, add [36m// eslint-disable-next-line[39m to the line before.
+
+[2J[3J[HCompiling...
+[2J[3J[H[33mCompiled with warnings.[39m
+[33m[39m
+[7m./src/App.js[27m
+  [1mLine 8:10:[22m  'text' is assigned a value but never used  [33m[4mno-unused-vars[24m[39m
+
+Search for the [4m[33mkeywords[39m[24m to learn more about each warning.
+To ignore, add [36m// eslint-disable-next-line[39m to the line before.
+
+[2J[3J[HCompiling...
+[2J[3J[H[33mCompiled with warnings.[39m
+[33m[39m
+[7m./src/App.js[27m
+  [1mLine 8:10:[22m  'text' is assigned a value but never used  [33m[4mno-unused-vars[24m[39m
+
+Search for the [4m[33mkeywords[39m[24m to learn more about each warning.
+To ignore, add [36m// eslint-disable-next-line[39m to the line before.
+
+[2J[3J[HCompiling...
+[2J[3J[H[33mCompiled with warnings.[39m
+[33m[39m
+[7m./src/App.js[27m
+  [1mLine 8:10:[22m  'text' is assigned a value but never used  [33m[4mno-unused-vars[24m[39m
+
+Search for the [4m[33mkeywords[39m[24m to learn more about each warning.
+To ignore, add [36m// eslint-disable-next-line[39m to the line before.
+
+[2J[3J[HCompiling...
+[2J[3J[H[33mCompiled with warnings.[39m
+[33m[39m
+[7m./src/App.js[27m
+  [1mLine 8:10:[22m  'text' is assigned a value but never used  [33m[4mno-unused-vars[24m[39m
+
+Search for the [4m[33mkeywords[39m[24m to learn more about each warning.
+To ignore, add [36m// eslint-disable-next-line[39m to the line before.
+
+[2J[3J[HCompiling...
+[2J[3J[H[33mCompiled with warnings.[39m
+[33m[39m
+[7m./src/App.js[27m
+  [1mLine 8:10:[22m  'text' is assigned a value but never used  [33m[4mno-unused-vars[24m[39m
+
+Search for the [4m[33mkeywords[39m[24m to learn more about each warning.
+To ignore, add [36m// eslint-disable-next-line[39m to the line before.
+
+[2J[3J[HCompiling...
+[2J[3J[H[33mCompiled with warnings.[39m
+[33m[39m
+[7m./src/App.js[27m
+  [1mLine 8:10:[22m  'text' is assigned a value but never used  [33m[4mno-unused-vars[24m[39m
+
+Search for the [4m[33mkeywords[39m[24m to learn more about each warning.
+To ignore, add [36m// eslint-disable-next-line[39m to the line before.
+
+[2J[3J[HCompiling...
+[2J[3J[H[33mCompiled with warnings.[39m
+[33m[39m
+[7m./src/App.js[27m
+  [1mLine 8:10:[22m  'text' is assigned a value but never used  [33m[4mno-unused-vars[24m[39m
+
+Search for the [4m[33mkeywords[39m[24m to learn more about each warning.
+To ignore, add [36m// eslint-disable-next-line[39m to the line before.
+
+[2J[3J[HCompiling...
+[2J[3J[H[33mCompiled with warnings.[39m
+[33m[39m
+[7m./src/App.js[27m
+  [1mLine 8:10:[22m  'text' is assigned a value but never used  [33m[4mno-unused-vars[24m[39m
+
+Search for the [4m[33mkeywords[39m[24m to learn more about each warning.
+To ignore, add [36m// eslint-disable-next-line[39m to the line before.
+
+[2J[3J[HCompiling...
+[2J[3J[H[33mCompiled with warnings.[39m
+[33m[39m
+[7m./src/App.js[27m
+  [1mLine 8:10:[22m  'text' is assigned a value but never used  [33m[4mno-unused-vars[24m[39m
+
+Search for the [4m[33mkeywords[39m[24m to learn more about each warning.
+To ignore, add [36m// eslint-disable-next-line[39m to the line before.
+
+[2J[3J[HCompiling...
+[2J[3J[H[33mCompiled with warnings.[39m
+[33m[39m
+[7m./src/App.js[27m
+  [1mLine 8:10:[22m  'text' is assigned a value but never used  [33m[4mno-unused-vars[24m[39m
+
+Search for the [4m[33mkeywords[39m[24m to learn more about each warning.
+To ignore, add [36m// eslint-disable-next-line[39m to the line before.
+
+[2J[3J[HCompiling...
+[2J[3J[H[33mCompiled with warnings.[39m
+[33m[39m
+[7m./src/App.js[27m
+  [1mLine 8:10:[22m  'text' is assigned a value but never used  [33m[4mno-unused-vars[24m[39m
+
+Search for the [4m[33mkeywords[39m[24m to learn more about each warning.
+To ignore, add [36m// eslint-disable-next-line[39m to the line before.
+
+[2J[3J[HCompiling...
+[2J[3J[H[33mCompiled with warnings.[39m
+[33m[39m
+[7m./src/App.js[27m
+  [1mLine 8:10:[22m  'text' is assigned a value but never used  [33m[4mno-unused-vars[24m[39m
+
+Search for the [4m[33mkeywords[39m[24m to learn more about each warning.
+To ignore, add [36m// eslint-disable-next-line[39m to the line before.
+
+[2J[3J[HCompiling...
+[2J[3J[H[33mCompiled with warnings.[39m
+[33m[39m
+[7m./src/App.js[27m
+  [1mLine 8:10:[22m  'text' is assigned a value but never used  [33m[4mno-unused-vars[24m[39m
+
+Search for the [4m[33mkeywords[39m[24m to learn more about each warning.
+To ignore, add [36m// eslint-disable-next-line[39m to the line before.
+
+[2J[3J[HCompiling...
+[2J[3J[H[33mCompiled with warnings.[39m
+[33m[39m
+[7m./src/App.js[27m
+  [1mLine 8:10:[22m  'text' is assigned a value but never used  [33m[4mno-unused-vars[24m[39m
+
+Search for the [4m[33mkeywords[39m[24m to learn more about each warning.
+To ignore, add [36m// eslint-disable-next-line[39m to the line before.
+
+[2J[3J[HCompiling...
+[2J[3J[H[33mCompiled with warnings.[39m
+[33m[39m
+[7m./src/App.js[27m
+  [1mLine 8:10:[22m  'text' is assigned a value but never used  [33m[4mno-unused-vars[24m[39m
+
+Search for the [4m[33mkeywords[39m[24m to learn more about each warning.
+To ignore, add [36m// eslint-disable-next-line[39m to the line before.
+
+[2J[3J[HCompiling...
+[2J[3J[H[33mCompiled with warnings.[39m
+[33m[39m
+[7m./src/App.js[27m
+  [1mLine 8:10:[22m  'text' is assigned a value but never used  [33m[4mno-unused-vars[24m[39m
+
+Search for the [4m[33mkeywords[39m[24m to learn more about each warning.
+To ignore, add [36m// eslint-disable-next-line[39m to the line before.
+
+[2J[3J[HCompiling...
+[2J[3J[H[33mCompiled with warnings.[39m
+[33m[39m
+[7m./src/App.js[27m
+  [1mLine 8:10:[22m  'text' is assigned a value but never used  [33m[4mno-unused-vars[24m[39m
+
+Search for the [4m[33mkeywords[39m[24m to learn more about each warning.
+To ignore, add [36m// eslint-disable-next-line[39m to the line before.
+
+[2J[3J[HCompiling...
+[2J[3J[H[33mCompiled with warnings.[39m
+[33m[39m
+[7m./src/App.js[27m
+  [1mLine 8:10:[22m  'text' is assigned a value but never used  [33m[4mno-unused-vars[24m[39m
+
+Search for the [4m[33mkeywords[39m[24m to learn more about each warning.
+To ignore, add [36m// eslint-disable-next-line[39m to the line before.
+
+[2J[3J[HCompiling...
+[2J[3J[H[33mCompiled with warnings.[39m
+[33m[39m
+[7m./src/App.js[27m
+  [1mLine 8:10:[22m  'text' is assigned a value but never used  [33m[4mno-unused-vars[24m[39m
+
+Search for the [4m[33mkeywords[39m[24m to learn more about each warning.
+To ignore, add [36m// eslint-disable-next-line[39m to the line before.
+
+[2J[3J[HCompiling...
+[2J[3J[H[33mCompiled with warnings.[39m
+[33m[39m
+[7m./src/App.js[27m
+  [1mLine 8:10:[22m  'text' is assigned a value but never used  [33m[4mno-unused-vars[24m[39m
+
+Search for the [4m[33mkeywords[39m[24m to learn more about each warning.
+To ignore, add [36m// eslint-disable-next-line[39m to the line before.
+
+[2J[3J[HCompiling...
+[2J[3J[H[33mCompiled with warnings.[39m
+[33m[39m
+[7m./src/App.js[27m
+  [1mLine 8:10:[22m  'text' is assigned a value but never used  [33m[4mno-unused-vars[24m[39m
+
+Search for the [4m[33mkeywords[39m[24m to learn more about each warning.
+To ignore, add [36m// eslint-disable-next-line[39m to the line before.
+
+[2J[3J[HCompiling...
+[2J[3J[H[33mCompiled with warnings.[39m
+[33m[39m
+[7m./src/App.js[27m
+  [1mLine 8:10:[22m  'text' is assigned a value but never used  [33m[4mno-unused-vars[24m[39m
+
+Search for the [4m[33mkeywords[39m[24m to learn more about each warning.
+To ignore, add [36m// eslint-disable-next-line[39m to the line before.
+
+[2J[3J[HCompiling...
+[2J[3J[H[33mCompiled with warnings.[39m
+[33m[39m
+[7m./src/App.js[27m
+  [1mLine 8:10:[22m  'text' is assigned a value but never used  [33m[4mno-unused-vars[24m[39m
+
+Search for the [4m[33mkeywords[39m[24m to learn more about each warning.
+To ignore, add [36m// eslint-disable-next-line[39m to the line before.
+
+[2J[3J[HCompiling...
+[2J[3J[H[33mCompiled with warnings.[39m
+[33m[39m
+[7m./src/App.js[27m
+  [1mLine 8:10:[22m  'text' is assigned a value but never used  [33m[4mno-unused-vars[24m[39m
+
+Search for the [4m[33mkeywords[39m[24m to learn more about each warning.
+To ignore, add [36m// eslint-disable-next-line[39m to the line before.
+
+[2J[3J[HCompiling...
+[2J[3J[H[33mCompiled with warnings.[39m
+[33m[39m
+[7m./src/App.js[27m
+  [1mLine 8:10:[22m  'text' is assigned a value but never used  [33m[4mno-unused-vars[24m[39m
+
+Search for the [4m[33mkeywords[39m[24m to learn more about each warning.
+To ignore, add [36m// eslint-disable-next-line[39m to the line before.
+
+[2J[3J[HCompiling...
+[2J[3J[H[33mCompiled with warnings.[39m
+[33m[39m
+[7m./src/App.js[27m
+  [1mLine 8:10:[22m  'text' is assigned a value but never used  [33m[4mno-unused-vars[24m[39m
+
+Search for the [4m[33mkeywords[39m[24m to learn more about each warning.
+To ignore, add [36m// eslint-disable-next-line[39m to the line before.
+
+[2J[3J[HCompiling...
+[2J[3J[H[33mCompiled with warnings.[39m
+[33m[39m
+[7m./src/App.js[27m
+  [1mLine 8:10:[22m  'text' is assigned a value but never used  [33m[4mno-unused-vars[24m[39m
+
+Search for the [4m[33mkeywords[39m[24m to learn more about each warning.
+To ignore, add [36m// eslint-disable-next-line[39m to the line before.
+
+[2J[3J[HCompiling...
+[2J[3J[H[33mCompiled with warnings.[39m
+[33m[39m
+[7m./src/App.js[27m
+  [1mLine 8:10:[22m  'text' is assigned a value but never used  [33m[4mno-unused-vars[24m[39m
+
+Search for the [4m[33mkeywords[39m[24m to learn more about each warning.
+To ignore, add [36m// eslint-disable-next-line[39m to the line before.
+
+[2J[3J[HCompiling...
+[2J[3J[H[33mCompiled with warnings.[39m
+[33m[39m
+[7m./src/App.js[27m
+  [1mLine 8:10:[22m  'text' is assigned a value but never used  [33m[4mno-unused-vars[24m[39m
+
+Search for the [4m[33mkeywords[39m[24m to learn more about each warning.
+To ignore, add [36m// eslint-disable-next-line[39m to the line before.
+
+[2J[3J[HCompiling...
+[2J[3J[H[33mCompiled with warnings.[39m
+[33m[39m
+[7m./src/App.js[27m
+  [1mLine 8:10:[22m  'text' is assigned a value but never used  [33m[4mno-unused-vars[24m[39m
+
+Search for the [4m[33mkeywords[39m[24m to learn more about each warning.
+To ignore, add [36m// eslint-disable-next-line[39m to the line before.
+
+[2J[3J[HCompiling...
+[2J[3J[H[33mCompiled with warnings.[39m
+[33m[39m
+[7m./src/App.js[27m
+  [1mLine 8:10:[22m  'text' is assigned a value but never used  [33m[4mno-unused-vars[24m[39m
+
+Search for the [4m[33mkeywords[39m[24m to learn more about each warning.
+To ignore, add [36m// eslint-disable-next-line[39m to the line before.
+
+[2J[3J[HCompiling...
+[2J[3J[H[33mCompiled with warnings.[39m
+[33m[39m
+[7m./src/App.js[27m
+  [1mLine 8:10:[22m  'text' is assigned a value but never used  [33m[4mno-unused-vars[24m[39m
+
+Search for the [4m[33mkeywords[39m[24m to learn more about each warning.
+To ignore, add [36m// eslint-disable-next-line[39m to the line before.
+
+[2J[3J[HCompiling...
+[2J[3J[H[33mCompiled with warnings.[39m
+[33m[39m
+[7m./src/App.js[27m
+  [1mLine 8:10:[22m  'text' is assigned a value but never used  [33m[4mno-unused-vars[24m[39m
+
+Search for the [4m[33mkeywords[39m[24m to learn more about each warning.
+To ignore, add [36m// eslint-disable-next-line[39m to the line before.
+
+[2J[3J[HCompiling...
+[2J[3J[H[33mCompiled with warnings.[39m
+[33m[39m
+[7m./src/App.js[27m
+  [1mLine 8:10:[22m  'text' is assigned a value but never used  [33m[4mno-unused-vars[24m[39m
+
+Search for the [4m[33mkeywords[39m[24m to learn more about each warning.
+To ignore, add [36m// eslint-disable-next-line[39m to the line before.
+
+[2J[3J[HCompiling...
+[2J[3J[H[33mCompiled with warnings.[39m
+[33m[39m
+[7m./src/Home.js[27m
+  [1mLine 43:10:[22m  'GraphicCard' is defined but never used  [33m[4mno-unused-vars[24m[39m
+
+[7m./src/App.js[27m
+  [1mLine 8:10:[22m  'text' is assigned a value but never used  [33m[4mno-unused-vars[24m[39m
+
+Search for the [4m[33mkeywords[39m[24m to learn more about each warning.
+To ignore, add [36m// eslint-disable-next-line[39m to the line before.
+
+[2J[3J[HCompiling...
+[2J[3J[H[33mCompiled with warnings.[39m
+[33m[39m
+[7m./src/Home.js[27m
+  [1mLine 43:10:[22m  'GraphicCard' is defined but never used  [33m[4mno-unused-vars[24m[39m
+
+[7m./src/App.js[27m
+  [1mLine 8:10:[22m  'text' is assigned a value but never used  [33m[4mno-unused-vars[24m[39m
+
+Search for the [4m[33mkeywords[39m[24m to learn more about each warning.
+To ignore, add [36m// eslint-disable-next-line[39m to the line before.
+
+[2J[3J[HCompiling...
+[2J[3J[H[33mCompiled with warnings.[39m
+[33m[39m
+[7m./src/Home.js[27m
+  [1mLine 43:10:[22m  'GraphicCard' is defined but never used    [33m[4mno-unused-vars[24m[39m
+  [1mLine 56:7:[22m   'json' is assigned a value but never used  [33m[4mno-unused-vars[24m[39m
+
+[7m./src/App.js[27m
+  [1mLine 8:10:[22m  'text' is assigned a value but never used  [33m[4mno-unused-vars[24m[39m
+
+Search for the [4m[33mkeywords[39m[24m to learn more about each warning.
+To ignore, add [36m// eslint-disable-next-line[39m to the line before.
+
+[2J[3J[HCompiling...
+[2J[3J[H[33mCompiled with warnings.[39m
+[33m[39m
+[7m./src/Home.js[27m
+  [1mLine 43:10:[22m  'GraphicCard' is defined but never used    [33m[4mno-unused-vars[24m[39m
+  [1mLine 63:7:[22m   'json' is assigned a value but never used  [33m[4mno-unused-vars[24m[39m
+
+[7m./src/App.js[27m
+  [1mLine 8:10:[22m  'text' is assigned a value but never used  [33m[4mno-unused-vars[24m[39m
+
+Search for the [4m[33mkeywords[39m[24m to learn more about each warning.
+To ignore, add [36m// eslint-disable-next-line[39m to the line before.
+
+[2J[3J[HCompiling...
+[2J[3J[H[33mCompiled with warnings.[39m
+[33m[39m
+[7m./src/Home.js[27m
+  [1mLine 43:10:[22m  'GraphicCard' is defined but never used    [33m[4mno-unused-vars[24m[39m
+  [1mLine 63:7:[22m   'json' is assigned a value but never used  [33m[4mno-unused-vars[24m[39m
+
+[7m./src/App.js[27m
+  [1mLine 8:10:[22m  'text' is assigned a value but never used  [33m[4mno-unused-vars[24m[39m
+
+Search for the [4m[33mkeywords[39m[24m to learn more about each warning.
+To ignore, add [36m// eslint-disable-next-line[39m to the line before.
+
+[2J[3J[HCompiling...
+[2J[3J[H[31mFailed to compile.[39m
+[31m[39m
+[7m./src/Home.js[27m
+  [1mLine 29:29:[22m  'card' is not defined  [31m[4mno-undef[24m[39m
+  [1mLine 29:46:[22m  'card' is not defined  [31m[4mno-undef[24m[39m
+  [1mLine 29:71:[22m  'card' is not defined  [31m[4mno-undef[24m[39m
+
+Search for the [4m[31mkeywords[39m[24m to learn more about each error.
+[2J[3J[HCompiling...
+[2J[3J[H[31mFailed to compile.[39m
+[31m[39m
+[7m./src/Home.js[27m
+  [1mLine 29:29:[22m  'card' is not defined  [31m[4mno-undef[24m[39m
+  [1mLine 29:46:[22m  'card' is not defined  [31m[4mno-undef[24m[39m
+  [1mLine 29:71:[22m  'card' is not defined  [31m[4mno-undef[24m[39m
+
+Search for the [4m[31mkeywords[39m[24m to learn more about each error.
+[2J[3J[HCompiling...
+[2J[3J[H[31mFailed to compile.[39m
+[31m[39m
+[7m./src/Home.js[27m
+  [1mLine 29:29:[22m  'card' is not defined   [31m[4mno-undef[24m[39m
+  [1mLine 29:46:[22m  'card' is not defined   [31m[4mno-undef[24m[39m
+  [1mLine 29:71:[22m  'card' is not defined   [31m[4mno-undef[24m[39m
+  [1mLine 29:94:[22m  'index' is not defined  [31m[4mno-undef[24m[39m
+
+Search for the [4m[31mkeywords[39m[24m to learn more about each error.
+[2J[3J[HCompiling...
+[2J[3J[H[33mCompiled with warnings.[39m
+[33m[39m
+[7m./src/App.js[27m
+  [1mLine 8:10:[22m  'text' is assigned a value but never used  [33m[4mno-unused-vars[24m[39m
+
+Search for the [4m[33mkeywords[39m[24m to learn more about each warning.
+To ignore, add [36m// eslint-disable-next-line[39m to the line before.
+
+[2J[3J[HCompiling...
+[2J[3J[H[33mCompiled with warnings.[39m
+[33m[39m
+[7m./src/App.js[27m
+  [1mLine 8:10:[22m  'text' is assigned a value but never used  [33m[4mno-unused-vars[24m[39m
+
+Search for the [4m[33mkeywords[39m[24m to learn more about each warning.
+To ignore, add [36m// eslint-disable-next-line[39m to the line before.
+
+[2J[3J[HCompiling...
+[2J[3J[H[31mFailed to compile.[39m
+[31m[39m
+[7m./src/Home.js[27m
+  [1mLine 46:9:[22m  Parsing error: Adjacent JSX elements must be wrapped in an enclosing tag. Did you want a JSX fragment <>...</>?
+
+[0m [90m 44 | [39m          [33m<[39m[33mimg[39m src[33m=[39m{img} alt[33m=[39m{[32m`${title} graphic`[39m} className[33m=[39m{styles[33m.[39mgraphic} [33m/[39m[33m>[39m[0m
+[0m [90m 45 | [39m        [33m<[39m[33m/[39m[33mCol[39m[33m>[39m[0m
+[0m[31m[1m>[22m[39m[90m 46 | [39m        [33m<[39m[33mCol[39m[33m>[39m[0m
+[0m [90m    | [39m        [31m[1m^[22m[39m[0m
+[0m [90m 47 | [39m          [33m<[39m[33mdiv[39m[33m>[39m[0m
+[0m [90m 48 | [39m            {title}[0m
+[0m [90m 49 | [39m          [33m<[39m[33m/[39m[33mdiv[39m[33m>[39m[0m
+[2J[3J[HCompiling...
+[2J[3J[H[33mCompiled with warnings.[39m
+[33m[39m
+[7m./src/App.js[27m
+  [1mLine 8:10:[22m  'text' is assigned a value but never used  [33m[4mno-unused-vars[24m[39m
+
+Search for the [4m[33mkeywords[39m[24m to learn more about each warning.
+To ignore, add [36m// eslint-disable-next-line[39m to the line before.
+
+[2J[3J[HCompiling...
+[2J[3J[H[33mCompiled with warnings.[39m
+[33m[39m
+[7m./src/App.js[27m
+  [1mLine 8:10:[22m  'text' is assigned a value but never used  [33m[4mno-unused-vars[24m[39m
+
+Search for the [4m[33mkeywords[39m[24m to learn more about each warning.
+To ignore, add [36m// eslint-disable-next-line[39m to the line before.
+
+[2J[3J[HCompiling...
+[2J[3J[H[33mCompiled with warnings.[39m
+[33m[39m
+[7m./src/App.js[27m
+  [1mLine 8:10:[22m  'text' is assigned a value but never used  [33m[4mno-unused-vars[24m[39m
+
+Search for the [4m[33mkeywords[39m[24m to learn more about each warning.
+To ignore, add [36m// eslint-disable-next-line[39m to the line before.
+
+[2J[3J[HCompiling...
+[2J[3J[H[31mFailed to compile.[39m
+[31m[39m
+[7m./src/Home.js[27m
+  [1mLine 49:29:[22m  'graphicTitle' is not defined  [31m[4mno-undef[24m[39m
+
+Search for the [4m[31mkeywords[39m[24m to learn more about each error.
+[2J[3J[HCompiling...
+[2J[3J[H[31mFailed to compile.[39m
+[31m[39m
+[7m./src/Home.js[27m
+  [1mLine 49:29:[22m  'graphicTitle' is not defined        [31m[4mno-undef[24m[39m
+  [1mLine 52:29:[22m  'graphicDescription' is not defined  [31m[4mno-undef[24m[39m
+
+Search for the [4m[31mkeywords[39m[24m to learn more about each error.
+[2J[3J[HCompiling...
+[2J[3J[H[31mFailed to compile.[39m
+[31m[39m
+[7m./src/Home.js[27m
+  [1mLine 49:29:[22m  'graphicTitle' is not defined        [31m[4mno-undef[24m[39m
+  [1mLine 52:29:[22m  'graphicDescription' is not defined  [31m[4mno-undef[24m[39m
+
+Search for the [4m[31mkeywords[39m[24m to learn more about each error.
+[2J[3J[HCompiling...
+[2J[3J[H[33mCompiled with warnings.[39m
+[33m[39m
+[7m./src/App.js[27m
+  [1mLine 8:10:[22m  'text' is assigned a value but never used  [33m[4mno-unused-vars[24m[39m
+
+Search for the [4m[33mkeywords[39m[24m to learn more about each warning.
+To ignore, add [36m// eslint-disable-next-line[39m to the line before.
+
+[2J[3J[HCompiling...
+[2J[3J[H[33mCompiled with warnings.[39m
+[33m[39m
+[7m./src/App.js[27m
+  [1mLine 8:10:[22m  'text' is assigned a value but never used  [33m[4mno-unused-vars[24m[39m
+
+Search for the [4m[33mkeywords[39m[24m to learn more about each warning.
+To ignore, add [36m// eslint-disable-next-line[39m to the line before.
+
+[2J[3J[HCompiling...
+[2J[3J[H[33mCompiled with warnings.[39m
+[33m[39m
+[7m./src/App.js[27m
+  [1mLine 8:10:[22m  'text' is assigned a value but never used  [33m[4mno-unused-vars[24m[39m
+
+Search for the [4m[33mkeywords[39m[24m to learn more about each warning.
+To ignore, add [36m// eslint-disable-next-line[39m to the line before.
+
+[2J[3J[HCompiling...
+[2J[3J[H[33mCompiled with warnings.[39m
+[33m[39m
+[7m./src/App.js[27m
+  [1mLine 8:10:[22m  'text' is assigned a value but never used  [33m[4mno-unused-vars[24m[39m
+
+Search for the [4m[33mkeywords[39m[24m to learn more about each warning.
+To ignore, add [36m// eslint-disable-next-line[39m to the line before.
+
+[2J[3J[HCompiling...
+[2J[3J[H[33mCompiled with warnings.[39m
+[33m[39m
+[7m./src/App.js[27m
+  [1mLine 8:10:[22m  'text' is assigned a value but never used  [33m[4mno-unused-vars[24m[39m
+
+Search for the [4m[33mkeywords[39m[24m to learn more about each warning.
+To ignore, add [36m// eslint-disable-next-line[39m to the line before.
+
+[2J[3J[HCompiling...
+[2J[3J[H[33mCompiled with warnings.[39m
+[33m[39m
+[7m./src/App.js[27m
+  [1mLine 8:10:[22m  'text' is assigned a value but never used  [33m[4mno-unused-vars[24m[39m
+
+Search for the [4m[33mkeywords[39m[24m to learn more about each warning.
+To ignore, add [36m// eslint-disable-next-line[39m to the line before.
+
+[2J[3J[HCompiling...
+[2J[3J[H[33mCompiled with warnings.[39m
+[33m[39m
+[7m./src/App.js[27m
+  [1mLine 8:10:[22m  'text' is assigned a value but never used  [33m[4mno-unused-vars[24m[39m
+
+Search for the [4m[33mkeywords[39m[24m to learn more about each warning.
+To ignore, add [36m// eslint-disable-next-line[39m to the line before.
+
+[2J[3J[HCompiling...
+[2J[3J[H[33mCompiled with warnings.[39m
+[33m[39m
+[7m./src/App.js[27m
+  [1mLine 8:10:[22m  'text' is assigned a value but never used  [33m[4mno-unused-vars[24m[39m
+
+Search for the [4m[33mkeywords[39m[24m to learn more about each warning.
+To ignore, add [36m// eslint-disable-next-line[39m to the line before.
+
+[2J[3J[HCompiling...
+[2J[3J[H[33mCompiled with warnings.[39m
+[33m[39m
+[7m./src/App.js[27m
+  [1mLine 8:10:[22m  'text' is assigned a value but never used  [33m[4mno-unused-vars[24m[39m
+
+Search for the [4m[33mkeywords[39m[24m to learn more about each warning.
+To ignore, add [36m// eslint-disable-next-line[39m to the line before.
+
+[2J[3J[HCompiling...
+[2J[3J[H[33mCompiled with warnings.[39m
+[33m[39m
+[7m./src/App.js[27m
+  [1mLine 8:10:[22m  'text' is assigned a value but never used  [33m[4mno-unused-vars[24m[39m
+
+Search for the [4m[33mkeywords[39m[24m to learn more about each warning.
+To ignore, add [36m// eslint-disable-next-line[39m to the line before.
+
+[2J[3J[HCompiling...
+[2J[3J[H[33mCompiled with warnings.[39m
+[33m[39m
+[7m./src/App.js[27m
+  [1mLine 8:10:[22m  'text' is assigned a value but never used  [33m[4mno-unused-vars[24m[39m
+
+Search for the [4m[33mkeywords[39m[24m to learn more about each warning.
+To ignore, add [36m// eslint-disable-next-line[39m to the line before.
+
+[2J[3J[HCompiling...
+[2J[3J[H[33mCompiled with warnings.[39m
+[33m[39m
+[7m./src/App.js[27m
+  [1mLine 8:10:[22m  'text' is assigned a value but never used  [33m[4mno-unused-vars[24m[39m
+
+Search for the [4m[33mkeywords[39m[24m to learn more about each warning.
+To ignore, add [36m// eslint-disable-next-line[39m to the line before.
+
+[2J[3J[HCompiling...
+[2J[3J[H[33mCompiled with warnings.[39m
+[33m[39m
+[7m./src/App.js[27m
+  [1mLine 8:10:[22m  'text' is assigned a value but never used  [33m[4mno-unused-vars[24m[39m
+
+Search for the [4m[33mkeywords[39m[24m to learn more about each warning.
+To ignore, add [36m// eslint-disable-next-line[39m to the line before.
+
+[2J[3J[HCompiling...
+[2J[3J[H[33mCompiled with warnings.[39m
+[33m[39m
+[7m./src/App.js[27m
+  [1mLine 8:10:[22m  'text' is assigned a value but never used  [33m[4mno-unused-vars[24m[39m
+
+Search for the [4m[33mkeywords[39m[24m to learn more about each warning.
+To ignore, add [36m// eslint-disable-next-line[39m to the line before.
+
+[2J[3J[HCompiling...
+[2J[3J[H[33mCompiled with warnings.[39m
+[33m[39m
+[7m./src/App.js[27m
+  [1mLine 8:10:[22m  'text' is assigned a value but never used  [33m[4mno-unused-vars[24m[39m
+
+Search for the [4m[33mkeywords[39m[24m to learn more about each warning.
+To ignore, add [36m// eslint-disable-next-line[39m to the line before.
+
+[2J[3J[HCompiling...
+[2J[3J[H[33mCompiled with warnings.[39m
+[33m[39m
+[7m./src/App.js[27m
+  [1mLine 8:10:[22m  'text' is assigned a value but never used  [33m[4mno-unused-vars[24m[39m
+
+Search for the [4m[33mkeywords[39m[24m to learn more about each warning.
+To ignore, add [36m// eslint-disable-next-line[39m to the line before.
+
+[2J[3J[HCompiling...
+[2J[3J[H[33mCompiled with warnings.[39m
+[33m[39m
+[7m./src/App.js[27m
+  [1mLine 8:10:[22m  'text' is assigned a value but never used  [33m[4mno-unused-vars[24m[39m
+
+Search for the [4m[33mkeywords[39m[24m to learn more about each warning.
+To ignore, add [36m// eslint-disable-next-line[39m to the line before.
+
+[2J[3J[HCompiling...
+[2J[3J[H[33mCompiled with warnings.[39m
+[33m[39m
+[7m./src/App.js[27m
+  [1mLine 8:10:[22m  'text' is assigned a value but never used  [33m[4mno-unused-vars[24m[39m
+
+Search for the [4m[33mkeywords[39m[24m to learn more about each warning.
+To ignore, add [36m// eslint-disable-next-line[39m to the line before.
+
+[2J[3J[HCompiling...
+[2J[3J[H[33mCompiled with warnings.[39m
+[33m[39m
+[7m./src/App.js[27m
+  [1mLine 8:10:[22m  'text' is assigned a value but never used  [33m[4mno-unused-vars[24m[39m
+
+Search for the [4m[33mkeywords[39m[24m to learn more about each warning.
+To ignore, add [36m// eslint-disable-next-line[39m to the line before.
+
+[2J[3J[HCompiling...
+[2J[3J[H[33mCompiled with warnings.[39m
+[33m[39m
+[7m./src/App.js[27m
+  [1mLine 8:10:[22m  'text' is assigned a value but never used  [33m[4mno-unused-vars[24m[39m
+
+Search for the [4m[33mkeywords[39m[24m to learn more about each warning.
+To ignore, add [36m// eslint-disable-next-line[39m to the line before.
+
+[2J[3J[HCompiling...
+[2J[3J[H[33mCompiled with warnings.[39m
+[33m[39m
+[7m./src/App.js[27m
+  [1mLine 8:10:[22m  'text' is assigned a value but never used  [33m[4mno-unused-vars[24m[39m
+
+Search for the [4m[33mkeywords[39m[24m to learn more about each warning.
+To ignore, add [36m// eslint-disable-next-line[39m to the line before.
+
+[2J[3J[HCompiling...
+[2J[3J[H[33mCompiled with warnings.[39m
+[33m[39m
+[7m./src/App.js[27m
+  [1mLine 8:10:[22m  'text' is assigned a value but never used  [33m[4mno-unused-vars[24m[39m
+
+Search for the [4m[33mkeywords[39m[24m to learn more about each warning.
+To ignore, add [36m// eslint-disable-next-line[39m to the line before.
+
+[2J[3J[HCompiling...
+[2J[3J[H[33mCompiled with warnings.[39m
+[33m[39m
+[7m./src/App.js[27m
+  [1mLine 8:10:[22m  'text' is assigned a value but never used  [33m[4mno-unused-vars[24m[39m
+
+Search for the [4m[33mkeywords[39m[24m to learn more about each warning.
+To ignore, add [36m// eslint-disable-next-line[39m to the line before.
+
+[2J[3J[HCompiling...
+[2J[3J[H[33mCompiled with warnings.[39m
+[33m[39m
+[7m./src/App.js[27m
+  [1mLine 8:10:[22m  'text' is assigned a value but never used  [33m[4mno-unused-vars[24m[39m
+
+Search for the [4m[33mkeywords[39m[24m to learn more about each warning.
+To ignore, add [36m// eslint-disable-next-line[39m to the line before.
+
+[2J[3J[HCompiling...
+[2J[3J[H[33mCompiled with warnings.[39m
+[33m[39m
+[7m./src/App.js[27m
+  [1mLine 8:10:[22m  'text' is assigned a value but never used  [33m[4mno-unused-vars[24m[39m
+
+Search for the [4m[33mkeywords[39m[24m to learn more about each warning.
+To ignore, add [36m// eslint-disable-next-line[39m to the line before.
+
+[2J[3J[HCompiling...
+[2J[3J[H[33mCompiled with warnings.[39m
+[33m[39m
+[7m./src/App.js[27m
+  [1mLine 8:10:[22m  'text' is assigned a value but never used  [33m[4mno-unused-vars[24m[39m
+
+Search for the [4m[33mkeywords[39m[24m to learn more about each warning.
+To ignore, add [36m// eslint-disable-next-line[39m to the line before.
+
+[2J[3J[HCompiling...
+[2J[3J[H[33mCompiled with warnings.[39m
+[33m[39m
+[7m./src/App.js[27m
+  [1mLine 8:10:[22m  'text' is assigned a value but never used  [33m[4mno-unused-vars[24m[39m
+
+Search for the [4m[33mkeywords[39m[24m to learn more about each warning.
+To ignore, add [36m// eslint-disable-next-line[39m to the line before.
+
+[2J[3J[HCompiling...
+[2J[3J[H[33mCompiled with warnings.[39m
+[33m[39m
+[7m./src/App.js[27m
+  [1mLine 8:10:[22m  'text' is assigned a value but never used  [33m[4mno-unused-vars[24m[39m
+
+Search for the [4m[33mkeywords[39m[24m to learn more about each warning.
+To ignore, add [36m// eslint-disable-next-line[39m to the line before.
+
+[2J[3J[HCompiling...
+[2J[3J[H[33mCompiled with warnings.[39m
+[33m[39m
+[7m./src/App.js[27m
+  [1mLine 8:10:[22m  'text' is assigned a value but never used  [33m[4mno-unused-vars[24m[39m
+
+Search for the [4m[33mkeywords[39m[24m to learn more about each warning.
+To ignore, add [36m// eslint-disable-next-line[39m to the line before.
+
+[2J[3J[HCompiling...
+[2J[3J[H[33mCompiled with warnings.[39m
+[33m[39m
+[7m./src/App.js[27m
+  [1mLine 8:10:[22m  'text' is assigned a value but never used  [33m[4mno-unused-vars[24m[39m
+
+Search for the [4m[33mkeywords[39m[24m to learn more about each warning.
+To ignore, add [36m// eslint-disable-next-line[39m to the line before.
+
+[2J[3J[HCompiling...
+[2J[3J[H[33mCompiled with warnings.[39m
+[33m[39m
+[7m./src/App.js[27m
+  [1mLine 8:10:[22m  'text' is assigned a value but never used  [33m[4mno-unused-vars[24m[39m
+
+Search for the [4m[33mkeywords[39m[24m to learn more about each warning.
+To ignore, add [36m// eslint-disable-next-line[39m to the line before.
+
+[2J[3J[HCompiling...
+[2J[3J[H[33mCompiled with warnings.[39m
+[33m[39m
+[7m./src/App.js[27m
+  [1mLine 8:10:[22m  'text' is assigned a value but never used  [33m[4mno-unused-vars[24m[39m
+
+Search for the [4m[33mkeywords[39m[24m to learn more about each warning.
+To ignore, add [36m// eslint-disable-next-line[39m to the line before.
+
+[2J[3J[HCompiling...
+[2J[3J[H[33mCompiled with warnings.[39m
+[33m[39m
+[7m./src/App.js[27m
+  [1mLine 8:10:[22m  'text' is assigned a value but never used  [33m[4mno-unused-vars[24m[39m
+
+Search for the [4m[33mkeywords[39m[24m to learn more about each warning.
+To ignore, add [36m// eslint-disable-next-line[39m to the line before.
+
+[2J[3J[HCompiling...
+[2J[3J[H[33mCompiled with warnings.[39m
+[33m[39m
+[7m./src/App.js[27m
+  [1mLine 8:10:[22m  'text' is assigned a value but never used  [33m[4mno-unused-vars[24m[39m
+
+Search for the [4m[33mkeywords[39m[24m to learn more about each warning.
+To ignore, add [36m// eslint-disable-next-line[39m to the line before.
+
+[2J[3J[HCompiling...
+[2J[3J[H[33mCompiled with warnings.[39m
+[33m[39m
+[7m./src/App.js[27m
+  [1mLine 8:10:[22m  'text' is assigned a value but never used  [33m[4mno-unused-vars[24m[39m
+
+Search for the [4m[33mkeywords[39m[24m to learn more about each warning.
+To ignore, add [36m// eslint-disable-next-line[39m to the line before.
+
+[2J[3J[HCompiling...
+[2J[3J[H[33mCompiled with warnings.[39m
+[33m[39m
+[7m./src/App.js[27m
+  [1mLine 8:10:[22m  'text' is assigned a value but never used  [33m[4mno-unused-vars[24m[39m
+
+Search for the [4m[33mkeywords[39m[24m to learn more about each warning.
+To ignore, add [36m// eslint-disable-next-line[39m to the line before.
+
+[2J[3J[HCompiling...
+[2J[3J[H[33mCompiled with warnings.[39m
+[33m[39m
+[7m./src/App.js[27m
+  [1mLine 8:10:[22m  'text' is assigned a value but never used  [33m[4mno-unused-vars[24m[39m
+
+Search for the [4m[33mkeywords[39m[24m to learn more about each warning.
+To ignore, add [36m// eslint-disable-next-line[39m to the line before.
+
+[2J[3J[HCompiling...
+[2J[3J[H[33mCompiled with warnings.[39m
+[33m[39m
+[7m./src/App.js[27m
+  [1mLine 8:10:[22m  'text' is assigned a value but never used  [33m[4mno-unused-vars[24m[39m
+
+Search for the [4m[33mkeywords[39m[24m to learn more about each warning.
+To ignore, add [36m// eslint-disable-next-line[39m to the line before.
+
+[2J[3J[HCompiling...
+[2J[3J[H[33mCompiled with warnings.[39m
+[33m[39m
+[7m./src/App.js[27m
+  [1mLine 8:10:[22m  'text' is assigned a value but never used  [33m[4mno-unused-vars[24m[39m
+
+Search for the [4m[33mkeywords[39m[24m to learn more about each warning.
+To ignore, add [36m// eslint-disable-next-line[39m to the line before.
+
+[2J[3J[HCompiling...
+[2J[3J[H[33mCompiled with warnings.[39m
+[33m[39m
+[7m./src/App.js[27m
+  [1mLine 8:10:[22m  'text' is assigned a value but never used  [33m[4mno-unused-vars[24m[39m
+
+Search for the [4m[33mkeywords[39m[24m to learn more about each warning.
+To ignore, add [36m// eslint-disable-next-line[39m to the line before.
+
+[2J[3J[HCompiling...
+[2J[3J[H[33mCompiled with warnings.[39m
+[33m[39m
+[7m./src/App.js[27m
+  [1mLine 8:10:[22m  'text' is assigned a value but never used  [33m[4mno-unused-vars[24m[39m
+
+Search for the [4m[33mkeywords[39m[24m to learn more about each warning.
+To ignore, add [36m// eslint-disable-next-line[39m to the line before.
+
+[2J[3J[HCompiling...
+[2J[3J[H[33mCompiled with warnings.[39m
+[33m[39m
+[7m./src/App.js[27m
+  [1mLine 8:10:[22m  'text' is assigned a value but never used  [33m[4mno-unused-vars[24m[39m
+
+Search for the [4m[33mkeywords[39m[24m to learn more about each warning.
+To ignore, add [36m// eslint-disable-next-line[39m to the line before.
+
+[2J[3J[HCompiling...
+[2J[3J[H[33mCompiled with warnings.[39m
+[33m[39m
+[7m./src/App.js[27m
+  [1mLine 8:10:[22m  'text' is assigned a value but never used  [33m[4mno-unused-vars[24m[39m
+
+Search for the [4m[33mkeywords[39m[24m to learn more about each warning.
+To ignore, add [36m// eslint-disable-next-line[39m to the line before.
+
+[2J[3J[HCompiling...
+[2J[3J[H[33mCompiled with warnings.[39m
+[33m[39m
+[7m./src/App.js[27m
+  [1mLine 8:10:[22m  'text' is assigned a value but never used  [33m[4mno-unused-vars[24m[39m
+
+Search for the [4m[33mkeywords[39m[24m to learn more about each warning.
+To ignore, add [36m// eslint-disable-next-line[39m to the line before.
+
+[2J[3J[HCompiling...
+[2J[3J[H[33mCompiled with warnings.[39m
+[33m[39m
+[7m./src/App.js[27m
+  [1mLine 8:10:[22m  'text' is assigned a value but never used  [33m[4mno-unused-vars[24m[39m
+
+Search for the [4m[33mkeywords[39m[24m to learn more about each warning.
+To ignore, add [36m// eslint-disable-next-line[39m to the line before.
+
+[2J[3J[HCompiling...
+[2J[3J[H[33mCompiled with warnings.[39m
+[33m[39m
+[7m./src/App.js[27m
+  [1mLine 8:10:[22m  'text' is assigned a value but never used  [33m[4mno-unused-vars[24m[39m
+
+Search for the [4m[33mkeywords[39m[24m to learn more about each warning.
+To ignore, add [36m// eslint-disable-next-line[39m to the line before.
+
+[2J[3J[HCompiling...
+[2J[3J[H[33mCompiled with warnings.[39m
+[33m[39m
+[7m./src/App.js[27m
+  [1mLine 8:10:[22m  'text' is assigned a value but never used  [33m[4mno-unused-vars[24m[39m
+
+Search for the [4m[33mkeywords[39m[24m to learn more about each warning.
+To ignore, add [36m// eslint-disable-next-line[39m to the line before.
+
+[2J[3J[HCompiling...
+[2J[3J[H[33mCompiled with warnings.[39m
+[33m[39m
+[7m./src/App.js[27m
+  [1mLine 8:10:[22m  'text' is assigned a value but never used  [33m[4mno-unused-vars[24m[39m
+
+Search for the [4m[33mkeywords[39m[24m to learn more about each warning.
+To ignore, add [36m// eslint-disable-next-line[39m to the line before.
+
+[2J[3J[HCompiling...
+[2J[3J[H[33mCompiled with warnings.[39m
+[33m[39m
+[7m./src/App.js[27m
+  [1mLine 8:10:[22m  'text' is assigned a value but never used  [33m[4mno-unused-vars[24m[39m
+
+Search for the [4m[33mkeywords[39m[24m to learn more about each warning.
+To ignore, add [36m// eslint-disable-next-line[39m to the line before.
+
+[2J[3J[HCompiling...
+[2J[3J[H[33mCompiled with warnings.[39m
+[33m[39m
+[7m./src/App.js[27m
+  [1mLine 8:10:[22m  'text' is assigned a value but never used  [33m[4mno-unused-vars[24m[39m
+
+Search for the [4m[33mkeywords[39m[24m to learn more about each warning.
+To ignore, add [36m// eslint-disable-next-line[39m to the line before.
+
+[2J[3J[HCompiling...
+[2J[3J[H[33mCompiled with warnings.[39m
+[33m[39m
+[7m./src/App.js[27m
+  [1mLine 8:10:[22m  'text' is assigned a value but never used  [33m[4mno-unused-vars[24m[39m
+
+Search for the [4m[33mkeywords[39m[24m to learn more about each warning.
+To ignore, add [36m// eslint-disable-next-line[39m to the line before.
+
+[2J[3J[HCompiling...
+[2J[3J[H[33mCompiled with warnings.[39m
+[33m[39m
+[7m./src/App.js[27m
+  [1mLine 8:10:[22m  'text' is assigned a value but never used  [33m[4mno-unused-vars[24m[39m
+
+Search for the [4m[33mkeywords[39m[24m to learn more about each warning.
+To ignore, add [36m// eslint-disable-next-line[39m to the line before.
+
+[2J[3J[HCompiling...
+[2J[3J[H[33mCompiled with warnings.[39m
+[33m[39m
+[7m./src/App.js[27m
+  [1mLine 8:10:[22m  'text' is assigned a value but never used  [33m[4mno-unused-vars[24m[39m
+
+Search for the [4m[33mkeywords[39m[24m to learn more about each warning.
+To ignore, add [36m// eslint-disable-next-line[39m to the line before.
+
+[2J[3J[HCompiling...
+[2J[3J[H[33mCompiled with warnings.[39m
+[33m[39m
+[7m./src/App.js[27m
+  [1mLine 8:10:[22m  'text' is assigned a value but never used  [33m[4mno-unused-vars[24m[39m
+
+Search for the [4m[33mkeywords[39m[24m to learn more about each warning.
+To ignore, add [36m// eslint-disable-next-line[39m to the line before.
+
+[2J[3J[HCompiling...
+[2J[3J[H[33mCompiled with warnings.[39m
+[33m[39m
+[7m./src/App.js[27m
+  [1mLine 8:10:[22m  'text' is assigned a value but never used  [33m[4mno-unused-vars[24m[39m
+
+Search for the [4m[33mkeywords[39m[24m to learn more about each warning.
+To ignore, add [36m// eslint-disable-next-line[39m to the line before.
+
+[2J[3J[HCompiling...
+[2J[3J[H[33mCompiled with warnings.[39m
+[33m[39m
+[7m./src/App.js[27m
+  [1mLine 8:10:[22m  'text' is assigned a value but never used  [33m[4mno-unused-vars[24m[39m
+
+Search for the [4m[33mkeywords[39m[24m to learn more about each warning.
+To ignore, add [36m// eslint-disable-next-line[39m to the line before.
+
+[2J[3J[HCompiling...
+[2J[3J[H[33mCompiled with warnings.[39m
+[33m[39m
+[7m./src/App.js[27m
+  [1mLine 8:10:[22m  'text' is assigned a value but never used  [33m[4mno-unused-vars[24m[39m
+
+Search for the [4m[33mkeywords[39m[24m to learn more about each warning.
+To ignore, add [36m// eslint-disable-next-line[39m to the line before.
+
+[2J[3J[HCompiling...
+[2J[3J[H[33mCompiled with warnings.[39m
+[33m[39m
+[7m./src/App.js[27m
+  [1mLine 8:10:[22m  'text' is assigned a value but never used  [33m[4mno-unused-vars[24m[39m
+
+Search for the [4m[33mkeywords[39m[24m to learn more about each warning.
+To ignore, add [36m// eslint-disable-next-line[39m to the line before.
+
+[2J[3J[HCompiling...
+[2J[3J[H[33mCompiled with warnings.[39m
+[33m[39m
+[7m./src/App.js[27m
+  [1mLine 8:10:[22m  'text' is assigned a value but never used  [33m[4mno-unused-vars[24m[39m
+
+Search for the [4m[33mkeywords[39m[24m to learn more about each warning.
+To ignore, add [36m// eslint-disable-next-line[39m to the line before.
+
+[2J[3J[HCompiling...
+[2J[3J[H[33mCompiled with warnings.[39m
+[33m[39m
+[7m./src/App.js[27m
+  [1mLine 8:10:[22m  'text' is assigned a value but never used  [33m[4mno-unused-vars[24m[39m
+
+Search for the [4m[33mkeywords[39m[24m to learn more about each warning.
+To ignore, add [36m// eslint-disable-next-line[39m to the line before.
+
+[2J[3J[HCompiling...
+[2J[3J[H[33mCompiled with warnings.[39m
+[33m[39m
+[7m./src/App.js[27m
+  [1mLine 8:10:[22m  'text' is assigned a value but never used  [33m[4mno-unused-vars[24m[39m
+
+Search for the [4m[33mkeywords[39m[24m to learn more about each warning.
+To ignore, add [36m// eslint-disable-next-line[39m to the line before.
+
+[2J[3J[HCompiling...
+[2J[3J[H[33mCompiled with warnings.[39m
+[33m[39m
+[7m./src/App.js[27m
+  [1mLine 8:10:[22m  'text' is assigned a value but never used  [33m[4mno-unused-vars[24m[39m
+
+Search for the [4m[33mkeywords[39m[24m to learn more about each warning.
+To ignore, add [36m// eslint-disable-next-line[39m to the line before.
+
+[2J[3J[HCompiling...
+[2J[3J[H[33mCompiled with warnings.[39m
+[33m[39m
+[7m./src/App.js[27m
+  [1mLine 8:10:[22m  'text' is assigned a value but never used  [33m[4mno-unused-vars[24m[39m
+
+Search for the [4m[33mkeywords[39m[24m to learn more about each warning.
+To ignore, add [36m// eslint-disable-next-line[39m to the line before.
+
+[2J[3J[HCompiling...
+[2J[3J[H[31mFailed to compile.[39m
+[31m[39m
+[7m./src/App.js[27m
+  [1mLine 17:10:[22m  'Nav' is not defined  [31m[4mreact/jsx-no-undef[24m[39m
+
+Search for the [4m[31mkeywords[39m[24m to learn more about each error.
+[2J[3J[HCompiling...
+[2J[3J[H[31mFailed to compile.[39m
+[31m[39m
+[7m./src/App.js[27m
+  [1mLine 16:8:[22m   'Nav' is not defined  [31m[4mreact/jsx-no-undef[24m[39m
+  [1mLine 17:10:[22m  'Nav' is not defined  [31m[4mreact/jsx-no-undef[24m[39m
+
+Search for the [4m[31mkeywords[39m[24m to learn more about each error.
+[2J[3J[HCompiling...
+[2J[3J[H[33mCompiled with warnings.[39m
+[33m[39m
+[7m./src/App.js[27m
+  [1mLine 8:10:[22m  'text' is assigned a value but never used  [33m[4mno-unused-vars[24m[39m
+
+Search for the [4m[33mkeywords[39m[24m to learn more about each warning.
+To ignore, add [36m// eslint-disable-next-line[39m to the line before.
+
+[2J[3J[HCompiling...
+[2J[3J[H[33mCompiled with warnings.[39m
+[33m[39m
+[7m./src/App.js[27m
+  [1mLine 8:10:[22m  'text' is assigned a value but never used  [33m[4mno-unused-vars[24m[39m
+
+Search for the [4m[33mkeywords[39m[24m to learn more about each warning.
+To ignore, add [36m// eslint-disable-next-line[39m to the line before.
+
+[2J[3J[HCompiling...
+[2J[3J[H[33mCompiled with warnings.[39m
+[33m[39m
+[7m./src/App.js[27m
+  [1mLine 8:10:[22m  'text' is assigned a value but never used  [33m[4mno-unused-vars[24m[39m
+
+Search for the [4m[33mkeywords[39m[24m to learn more about each warning.
+To ignore, add [36m// eslint-disable-next-line[39m to the line before.
+
+[2J[3J[HCompiling...
+[2J[3J[H[33mCompiled with warnings.[39m
+[33m[39m
+[7m./src/App.js[27m
+  [1mLine 8:10:[22m  'text' is assigned a value but never used  [33m[4mno-unused-vars[24m[39m
+
+Search for the [4m[33mkeywords[39m[24m to learn more about each warning.
+To ignore, add [36m// eslint-disable-next-line[39m to the line before.
+
+[2J[3J[HCompiling...
+[2J[3J[H[33mCompiled with warnings.[39m
+[33m[39m
+[7m./src/App.js[27m
+  [1mLine 8:10:[22m  'text' is assigned a value but never used  [33m[4mno-unused-vars[24m[39m
+
+Search for the [4m[33mkeywords[39m[24m to learn more about each warning.
+To ignore, add [36m// eslint-disable-next-line[39m to the line before.
+
+[2J[3J[HCompiling...
+[2J[3J[H[33mCompiled with warnings.[39m
+[33m[39m
+[7m./src/App.js[27m
+  [1mLine 8:10:[22m  'text' is assigned a value but never used  [33m[4mno-unused-vars[24m[39m
+
+Search for the [4m[33mkeywords[39m[24m to learn more about each warning.
+To ignore, add [36m// eslint-disable-next-line[39m to the line before.
+
+[2J[3J[HCompiling...
+[2J[3J[H[33mCompiled with warnings.[39m
+[33m[39m
+[7m./src/App.js[27m
+  [1mLine 8:10:[22m  'text' is assigned a value but never used  [33m[4mno-unused-vars[24m[39m
+
+Search for the [4m[33mkeywords[39m[24m to learn more about each warning.
+To ignore, add [36m// eslint-disable-next-line[39m to the line before.
+
+[2J[3J[HCompiling...
+[2J[3J[H[33mCompiled with warnings.[39m
+[33m[39m
+[7m./src/App.js[27m
+  [1mLine 8:10:[22m  'text' is assigned a value but never used  [33m[4mno-unused-vars[24m[39m
+
+Search for the [4m[33mkeywords[39m[24m to learn more about each warning.
+To ignore, add [36m// eslint-disable-next-line[39m to the line before.
+
+[2J[3J[HCompiling...
+[2J[3J[H[33mCompiled with warnings.[39m
+[33m[39m
+[7m./src/App.js[27m
+  [1mLine 8:10:[22m  'text' is assigned a value but never used  [33m[4mno-unused-vars[24m[39m
+
+Search for the [4m[33mkeywords[39m[24m to learn more about each warning.
+To ignore, add [36m// eslint-disable-next-line[39m to the line before.
+
+[2J[3J[HCompiling...
+[2J[3J[H[33mCompiled with warnings.[39m
+[33m[39m
+[7m./src/App.js[27m
+  [1mLine 8:10:[22m  'text' is assigned a value but never used  [33m[4mno-unused-vars[24m[39m
+
+Search for the [4m[33mkeywords[39m[24m to learn more about each warning.
+To ignore, add [36m// eslint-disable-next-line[39m to the line before.
+
+[2J[3J[HCompiling...
+[2J[3J[H[33mCompiled with warnings.[39m
+[33m[39m
+[7m./src/App.js[27m
+  [1mLine 8:10:[22m  'text' is assigned a value but never used  [33m[4mno-unused-vars[24m[39m
+
+Search for the [4m[33mkeywords[39m[24m to learn more about each warning.
+To ignore, add [36m// eslint-disable-next-line[39m to the line before.
+
+[2J[3J[HCompiling...
+[2J[3J[H[33mCompiled with warnings.[39m
+[33m[39m
+[7m./src/App.js[27m
+  [1mLine 8:10:[22m  'text' is assigned a value but never used  [33m[4mno-unused-vars[24m[39m
+
+Search for the [4m[33mkeywords[39m[24m to learn more about each warning.
+To ignore, add [36m// eslint-disable-next-line[39m to the line before.
+
+[2J[3J[HCompiling...
+[2J[3J[H[33mCompiled with warnings.[39m
+[33m[39m
+[7m./src/App.js[27m
+  [1mLine 8:10:[22m  'text' is assigned a value but never used  [33m[4mno-unused-vars[24m[39m
+
+Search for the [4m[33mkeywords[39m[24m to learn more about each warning.
+To ignore, add [36m// eslint-disable-next-line[39m to the line before.
+
+[2J[3J[HCompiling...
+[2J[3J[H[33mCompiled with warnings.[39m
+[33m[39m
+[7m./src/App.js[27m
+  [1mLine 8:10:[22m  'text' is assigned a value but never used  [33m[4mno-unused-vars[24m[39m
+
+Search for the [4m[33mkeywords[39m[24m to learn more about each warning.
+To ignore, add [36m// eslint-disable-next-line[39m to the line before.
+
+[2J[3J[HCompiling...
+[2J[3J[H[33mCompiled with warnings.[39m
+[33m[39m
+[7m./src/App.js[27m
+  [1mLine 8:10:[22m  'text' is assigned a value but never used  [33m[4mno-unused-vars[24m[39m
+
+Search for the [4m[33mkeywords[39m[24m to learn more about each warning.
+To ignore, add [36m// eslint-disable-next-line[39m to the line before.
+
+[2J[3J[HCompiling...
+[2J[3J[H[33mCompiled with warnings.[39m
+[33m[39m
+[7m./src/App.js[27m
+  [1mLine 8:10:[22m  'text' is assigned a value but never used  [33m[4mno-unused-vars[24m[39m
+
+Search for the [4m[33mkeywords[39m[24m to learn more about each warning.
+To ignore, add [36m// eslint-disable-next-line[39m to the line before.
+
+[2J[3J[HCompiling...
+[2J[3J[H[33mCompiled with warnings.[39m
+[33m[39m
+[7m./src/App.js[27m
+  [1mLine 8:10:[22m  'text' is assigned a value but never used  [33m[4mno-unused-vars[24m[39m
+
+Search for the [4m[33mkeywords[39m[24m to learn more about each warning.
+To ignore, add [36m// eslint-disable-next-line[39m to the line before.
+
+[2J[3J[HCompiling...
+[2J[3J[H[33mCompiled with warnings.[39m
+[33m[39m
+[7m./src/App.js[27m
+  [1mLine 8:10:[22m  'text' is assigned a value but never used  [33m[4mno-unused-vars[24m[39m
+
+Search for the [4m[33mkeywords[39m[24m to learn more about each warning.
+To ignore, add [36m// eslint-disable-next-line[39m to the line before.
+
+[2J[3J[HCompiling...
+[2J[3J[H[33mCompiled with warnings.[39m
+[33m[39m
+[7m./src/App.js[27m
+  [1mLine 8:10:[22m  'text' is assigned a value but never used  [33m[4mno-unused-vars[24m[39m
+
+Search for the [4m[33mkeywords[39m[24m to learn more about each warning.
+To ignore, add [36m// eslint-disable-next-line[39m to the line before.
+
+[2J[3J[HCompiling...
+[2J[3J[H[33mCompiled with warnings.[39m
+[33m[39m
+[7m./src/App.js[27m
+  [1mLine 8:10:[22m  'text' is assigned a value but never used  [33m[4mno-unused-vars[24m[39m
+
+Search for the [4m[33mkeywords[39m[24m to learn more about each warning.
+To ignore, add [36m// eslint-disable-next-line[39m to the line before.
+
+[2J[3J[HCompiling...
+[2J[3J[H[33mCompiled with warnings.[39m
+[33m[39m
+[7m./src/App.js[27m
+  [1mLine 8:10:[22m  'text' is assigned a value but never used  [33m[4mno-unused-vars[24m[39m
+
+Search for the [4m[33mkeywords[39m[24m to learn more about each warning.
+To ignore, add [36m// eslint-disable-next-line[39m to the line before.
+
+[2J[3J[HCompiling...
+[2J[3J[H[33mCompiled with warnings.[39m
+[33m[39m
+[7m./src/App.js[27m
+  [1mLine 8:10:[22m  'text' is assigned a value but never used  [33m[4mno-unused-vars[24m[39m
+
+Search for the [4m[33mkeywords[39m[24m to learn more about each warning.
+To ignore, add [36m// eslint-disable-next-line[39m to the line before.
+
+[2J[3J[HCompiling...
+[2J[3J[H[33mCompiled with warnings.[39m
+[33m[39m
+[7m./src/App.js[27m
+  [1mLine 8:10:[22m  'text' is assigned a value but never used  [33m[4mno-unused-vars[24m[39m
+
+Search for the [4m[33mkeywords[39m[24m to learn more about each warning.
+To ignore, add [36m// eslint-disable-next-line[39m to the line before.
+
+[2J[3J[HCompiling...
+[2J[3J[H[33mCompiled with warnings.[39m
+[33m[39m
+[7m./src/App.js[27m
+  [1mLine 8:10:[22m  'text' is assigned a value but never used  [33m[4mno-unused-vars[24m[39m
+
+Search for the [4m[33mkeywords[39m[24m to learn more about each warning.
+To ignore, add [36m// eslint-disable-next-line[39m to the line before.
+
+[2J[3J[HCompiling...
+[2J[3J[H[33mCompiled with warnings.[39m
+[33m[39m
+[7m./src/App.js[27m
+  [1mLine 8:10:[22m  'text' is assigned a value but never used  [33m[4mno-unused-vars[24m[39m
+
+Search for the [4m[33mkeywords[39m[24m to learn more about each warning.
+To ignore, add [36m// eslint-disable-next-line[39m to the line before.
+
+[2J[3J[HCompiling...
+[2J[3J[H[33mCompiled with warnings.[39m
+[33m[39m
+[7m./src/App.js[27m
+  [1mLine 8:10:[22m  'text' is assigned a value but never used  [33m[4mno-unused-vars[24m[39m
+
+Search for the [4m[33mkeywords[39m[24m to learn more about each warning.
+To ignore, add [36m// eslint-disable-next-line[39m to the line before.
+
+[2J[3J[HCompiling...
+[2J[3J[H[33mCompiled with warnings.[39m
+[33m[39m
+[7m./src/App.js[27m
+  [1mLine 8:10:[22m  'text' is assigned a value but never used  [33m[4mno-unused-vars[24m[39m
+
+Search for the [4m[33mkeywords[39m[24m to learn more about each warning.
+To ignore, add [36m// eslint-disable-next-line[39m to the line before.
+
+[2J[3J[HCompiling...
+[2J[3J[H[33mCompiled with warnings.[39m
+[33m[39m
+[7m./src/App.js[27m
+  [1mLine 8:10:[22m  'text' is assigned a value but never used  [33m[4mno-unused-vars[24m[39m
+
+Search for the [4m[33mkeywords[39m[24m to learn more about each warning.
+To ignore, add [36m// eslint-disable-next-line[39m to the line before.
+
+[2J[3J[HCompiling...
+[2J[3J[H[33mCompiled with warnings.[39m
+[33m[39m
+[7m./src/App.js[27m
+  [1mLine 8:10:[22m  'text' is assigned a value but never used  [33m[4mno-unused-vars[24m[39m
+
+Search for the [4m[33mkeywords[39m[24m to learn more about each warning.
+To ignore, add [36m// eslint-disable-next-line[39m to the line before.
+
+[2J[3J[HCompiling...
+[2J[3J[H[33mCompiled with warnings.[39m
+[33m[39m
+[7m./src/App.js[27m
+  [1mLine 8:10:[22m  'text' is assigned a value but never used  [33m[4mno-unused-vars[24m[39m
+
+Search for the [4m[33mkeywords[39m[24m to learn more about each warning.
+To ignore, add [36m// eslint-disable-next-line[39m to the line before.
+
+[2J[3J[HCompiling...
+[2J[3J[H[33mCompiled with warnings.[39m
+[33m[39m
+[7m./src/App.js[27m
+  [1mLine 8:10:[22m  'text' is assigned a value but never used  [33m[4mno-unused-vars[24m[39m
+
+Search for the [4m[33mkeywords[39m[24m to learn more about each warning.
+To ignore, add [36m// eslint-disable-next-line[39m to the line before.
+
+[2J[3J[HCompiling...
+[2J[3J[H[33mCompiled with warnings.[39m
+[33m[39m
+[7m./src/App.js[27m
+  [1mLine 8:10:[22m  'text' is assigned a value but never used  [33m[4mno-unused-vars[24m[39m
+
+Search for the [4m[33mkeywords[39m[24m to learn more about each warning.
+To ignore, add [36m// eslint-disable-next-line[39m to the line before.
+
+[2J[3J[HCompiling...
+[2J[3J[H[33mCompiled with warnings.[39m
+[33m[39m
+[7m./src/App.js[27m
+  [1mLine 8:10:[22m  'text' is assigned a value but never used  [33m[4mno-unused-vars[24m[39m
+
+Search for the [4m[33mkeywords[39m[24m to learn more about each warning.
+To ignore, add [36m// eslint-disable-next-line[39m to the line before.
+
+[2J[3J[HCompiling...
+[2J[3J[H[33mCompiled with warnings.[39m
+[33m[39m
+[7m./src/App.js[27m
+  [1mLine 8:10:[22m  'text' is assigned a value but never used  [33m[4mno-unused-vars[24m[39m
+
+Search for the [4m[33mkeywords[39m[24m to learn more about each warning.
+To ignore, add [36m// eslint-disable-next-line[39m to the line before.
+
+[2J[3J[HCompiling...
+[2J[3J[H[33mCompiled with warnings.[39m
+[33m[39m
+[7m./src/App.js[27m
+  [1mLine 8:10:[22m  'text' is assigned a value but never used  [33m[4mno-unused-vars[24m[39m
+
+Search for the [4m[33mkeywords[39m[24m to learn more about each warning.
+To ignore, add [36m// eslint-disable-next-line[39m to the line before.
+
+[2J[3J[HCompiling...
+[2J[3J[H[33mCompiled with warnings.[39m
+[33m[39m
+[7m./src/App.js[27m
+  [1mLine 8:10:[22m  'text' is assigned a value but never used  [33m[4mno-unused-vars[24m[39m
+
+Search for the [4m[33mkeywords[39m[24m to learn more about each warning.
+To ignore, add [36m// eslint-disable-next-line[39m to the line before.
+
+[2J[3J[HCompiling...
+[2J[3J[H[33mCompiled with warnings.[39m
+[33m[39m
+[7m./src/App.js[27m
+  [1mLine 8:10:[22m  'text' is assigned a value but never used  [33m[4mno-unused-vars[24m[39m
+
+Search for the [4m[33mkeywords[39m[24m to learn more about each warning.
+To ignore, add [36m// eslint-disable-next-line[39m to the line before.
+
+[2J[3J[HCompiling...
+[2J[3J[H[33mCompiled with warnings.[39m
+[33m[39m
+[7m./src/App.js[27m
+  [1mLine 8:10:[22m  'text' is assigned a value but never used  [33m[4mno-unused-vars[24m[39m
+
+Search for the [4m[33mkeywords[39m[24m to learn more about each warning.
+To ignore, add [36m// eslint-disable-next-line[39m to the line before.
+
+[2J[3J[HCompiling...
+[2J[3J[H[33mCompiled with warnings.[39m
+[33m[39m
+[7m./src/App.js[27m
+  [1mLine 8:10:[22m  'text' is assigned a value but never used  [33m[4mno-unused-vars[24m[39m
+
+Search for the [4m[33mkeywords[39m[24m to learn more about each warning.
+To ignore, add [36m// eslint-disable-next-line[39m to the line before.
+
+[2J[3J[HCompiling...
+[2J[3J[H[31mFailed to compile.[39m
+[31m[39m
+[7m./src/App.js[27m
+Attempted import error: 'faSearchengine' is not exported from '@fortawesome/free-solid-svg-icons'.
+[2J[3J[HCompiling...
+[2J[3J[H[31mFailed to compile.[39m
+[31m[39m
+[7m./src/App.js[27m
+Module not found: Can't resolve '@fortawesome/free-solid-svg-brands' in '/Users/cindyzhang/Documents/personal-projects/webscrape-stackoverflow/client/src'
+[2J[3J[HCompiling...
+[2J[3J[H[31mFailed to compile.[39m
+[31m[39m
+[7m./src/App.js[27m
+Module not found: Can't resolve '@fortawesome/free-solid-svg-brands' in '/Users/cindyzhang/Documents/personal-projects/webscrape-stackoverflow/client/src'
+[2J[3J[HCompiling...
+[2J[3J[H[31mFailed to compile.[39m
+[31m[39m
+[7m./src/App.js[27m
+Module not found: Can't resolve '@fortawesome/free-solid-svg-core' in '/Users/cindyzhang/Documents/personal-projects/webscrape-stackoverflow/client/src'
+[2J[3J[HCompiling...
+[2J[3J[H[31mFailed to compile.[39m
+[31m[39m
+[7m./src/App.js[27m
+Module not found: Can't resolve '@fortawesome/free-solid-svg-core' in '/Users/cindyzhang/Documents/personal-projects/webscrape-stackoverflow/client/src'
+[2J[3J[HCompiling...
+[2J[3J[H[31mFailed to compile.[39m
+[31m[39m
+[7m./src/App.js[27m
+Attempted import error: 'faSearchengine' is not exported from '@fortawesome/fontawesome-svg-core'.
+[2J[3J[HCompiling...
+[2J[3J[H[31mFailed to compile.[39m
+[31m[39m
+[7m./src/App.js[27m
+  [1mLine 20:34:[22m  'faSearchengine' is not defined  [31m[4mno-undef[24m[39m
+
+Search for the [4m[31mkeywords[39m[24m to learn more about each error.
+[2J[3J[HCompiling...
+[2J[3J[H[31mFailed to compile.[39m
+[31m[39m
+[7m./src/App.js[27m
+Attempted import error: 'faSearchengin' is not exported from '@fortawesome/fontawesome-svg-core'.
+[2J[3J[HCompiling...
+[2J[3J[H[31mFailed to compile.[39m
+[31m[39m
+[7m./src/App.js[27m
+Attempted import error: 'faSearchengin' is not exported from '@fortawesome/free-solid-svg-icons'.
+[2J[3J[HCompiling...
+[2J[3J[H[31mFailed to compile.[39m
+[31m[39m
+[7m./src/App.js[27m
+Module not found: Can't resolve '@fortawesome/free-solid-svg-brand' in '/Users/cindyzhang/Documents/personal-projects/webscrape-stackoverflow/client/src'
+[2J[3J[HCompiling...
+[2J[3J[H[31mFailed to compile.[39m
+[31m[39m
+[7m./src/App.js[27m
+Module not found: Can't resolve '@fortawesome/free-solid-svg-brand' in '/Users/cindyzhang/Documents/personal-projects/webscrape-stackoverflow/client/src'
+[2J[3J[HCompiling...
+[2J[3J[H[31mFailed to compile.[39m
+[31m[39m
+[7m./src/App.js[27m
+Module not found: Can't resolve '@fortawesome/free-solid-svg-brands' in '/Users/cindyzhang/Documents/personal-projects/webscrape-stackoverflow/client/src'
+[2J[3J[HCompiling...
+[2J[3J[H[31mFailed to compile.[39m
+[31m[39m
+[7m./src/App.js[27m
+Attempted import error: 'faSearchplus' is not exported from '@fortawesome/free-solid-svg-icons'.
+[2J[3J[HCompiling...
+[2J[3J[H[33mCompiled with warnings.[39m
+[33m[39m
+[7m./src/App.js[27m
+  [1mLine 10:10:[22m  'text' is assigned a value but never used  [33m[4mno-unused-vars[24m[39m
+
+Search for the [4m[33mkeywords[39m[24m to learn more about each warning.
+To ignore, add [36m// eslint-disable-next-line[39m to the line before.
+
+[2J[3J[HCompiling...
+[2J[3J[H[33mCompiled with warnings.[39m
+[33m[39m
+[7m./src/App.js[27m
+  [1mLine 10:10:[22m  'text' is assigned a value but never used  [33m[4mno-unused-vars[24m[39m
+
+Search for the [4m[33mkeywords[39m[24m to learn more about each warning.
+To ignore, add [36m// eslint-disable-next-line[39m to the line before.
+
+[2J[3J[HCompiling...
+[2J[3J[H[33mCompiled with warnings.[39m
+[33m[39m
+[7m./src/App.js[27m
+  [1mLine 10:10:[22m  'text' is assigned a value but never used  [33m[4mno-unused-vars[24m[39m
+
+Search for the [4m[33mkeywords[39m[24m to learn more about each warning.
+To ignore, add [36m// eslint-disable-next-line[39m to the line before.
+
+[2J[3J[HCompiling...
+[2J[3J[H[33mCompiled with warnings.[39m
+[33m[39m
+[7m./src/App.js[27m
+  [1mLine 10:10:[22m  'text' is assigned a value but never used  [33m[4mno-unused-vars[24m[39m
+
+Search for the [4m[33mkeywords[39m[24m to learn more about each warning.
+To ignore, add [36m// eslint-disable-next-line[39m to the line before.
+
+[2J[3J[HCompiling...
+[2J[3J[H[33mCompiled with warnings.[39m
+[33m[39m
+[7m./src/App.js[27m
+  [1mLine 10:10:[22m  'text' is assigned a value but never used  [33m[4mno-unused-vars[24m[39m
+
+Search for the [4m[33mkeywords[39m[24m to learn more about each warning.
+To ignore, add [36m// eslint-disable-next-line[39m to the line before.
+
+[2J[3J[HCompiling...
+[2J[3J[H[33mCompiled with warnings.[39m
+[33m[39m
+[7m./src/App.js[27m
+  [1mLine 10:10:[22m  'text' is assigned a value but never used  [33m[4mno-unused-vars[24m[39m
+
+Search for the [4m[33mkeywords[39m[24m to learn more about each warning.
+To ignore, add [36m// eslint-disable-next-line[39m to the line before.
+
+[2J[3J[HCompiling...
+[2J[3J[H[33mCompiled with warnings.[39m
+[33m[39m
+[7m./src/App.js[27m
+  [1mLine 10:10:[22m  'text' is assigned a value but never used  [33m[4mno-unused-vars[24m[39m
+
+Search for the [4m[33mkeywords[39m[24m to learn more about each warning.
+To ignore, add [36m// eslint-disable-next-line[39m to the line before.
+
+[2J[3J[HCompiling...
+[2J[3J[H[33mCompiled with warnings.[39m
+[33m[39m
+[7m./src/App.js[27m
+  [1mLine 10:10:[22m  'text' is assigned a value but never used  [33m[4mno-unused-vars[24m[39m
+
+Search for the [4m[33mkeywords[39m[24m to learn more about each warning.
+To ignore, add [36m// eslint-disable-next-line[39m to the line before.
+
+[2J[3J[HCompiling...
+[2J[3J[H[33mCompiled with warnings.[39m
+[33m[39m
+[7m./src/App.js[27m
+  [1mLine 10:10:[22m  'text' is assigned a value but never used  [33m[4mno-unused-vars[24m[39m
+
+Search for the [4m[33mkeywords[39m[24m to learn more about each warning.
+To ignore, add [36m// eslint-disable-next-line[39m to the line before.
+
+[2J[3J[HCompiling...
+[2J[3J[H[33mCompiled with warnings.[39m
+[33m[39m
+[7m./src/App.js[27m
+  [1mLine 10:10:[22m  'text' is assigned a value but never used  [33m[4mno-unused-vars[24m[39m
+
+Search for the [4m[33mkeywords[39m[24m to learn more about each warning.
+To ignore, add [36m// eslint-disable-next-line[39m to the line before.
+
+[2J[3J[HCompiling...
+[2J[3J[H[33mCompiled with warnings.[39m
+[33m[39m
+[7m./src/App.js[27m
+  [1mLine 10:10:[22m  'text' is assigned a value but never used  [33m[4mno-unused-vars[24m[39m
+
+Search for the [4m[33mkeywords[39m[24m to learn more about each warning.
+To ignore, add [36m// eslint-disable-next-line[39m to the line before.
+
+[2J[3J[HCompiling...
+[2J[3J[H[33mCompiled with warnings.[39m
+[33m[39m
+[7m./src/App.js[27m
+  [1mLine 10:10:[22m  'text' is assigned a value but never used  [33m[4mno-unused-vars[24m[39m
+
+Search for the [4m[33mkeywords[39m[24m to learn more about each warning.
+To ignore, add [36m// eslint-disable-next-line[39m to the line before.
+
+[2J[3J[HCompiling...
+[2J[3J[H[33mCompiled with warnings.[39m
+[33m[39m
+[7m./src/App.js[27m
+  [1mLine 4:10:[22m   'FontAwesomeIcon' is defined but never used                                                                [33m[4mno-unused-vars[24m[39m
+  [1mLine 5:10:[22m   'faSearchPlus' is defined but never used                                                                   [33m[4mno-unused-vars[24m[39m
+  [1mLine 11:10:[22m  'text' is assigned a value but never used                                                                  [33m[4mno-unused-vars[24m[39m
+  [1mLine 21:11:[22m  img elements must have an alt prop, either with meaningful text, or an empty string for decorative images  [33m[4mjsx-a11y/alt-text[24m[39m
+
+Search for the [4m[33mkeywords[39m[24m to learn more about each warning.
+To ignore, add [36m// eslint-disable-next-line[39m to the line before.
+
+[2J[3J[HCompiling...
+[2J[3J[H[33mCompiled with warnings.[39m
+[33m[39m
+[7m./src/App.js[27m
+  [1mLine 4:10:[22m   'FontAwesomeIcon' is defined but never used                                                                [33m[4mno-unused-vars[24m[39m
+  [1mLine 5:10:[22m   'faSearchPlus' is defined but never used                                                                   [33m[4mno-unused-vars[24m[39m
+  [1mLine 11:10:[22m  'text' is assigned a value but never used                                                                  [33m[4mno-unused-vars[24m[39m
+  [1mLine 21:11:[22m  img elements must have an alt prop, either with meaningful text, or an empty string for decorative images  [33m[4mjsx-a11y/alt-text[24m[39m
+
+Search for the [4m[33mkeywords[39m[24m to learn more about each warning.
+To ignore, add [36m// eslint-disable-next-line[39m to the line before.
+
+[2J[3J[HCompiling...
+[2J[3J[H[33mCompiled with warnings.[39m
+[33m[39m
+[7m./src/App.js[27m
+  [1mLine 4:10:[22m   'FontAwesomeIcon' is defined but never used                                                                [33m[4mno-unused-vars[24m[39m
+  [1mLine 5:10:[22m   'faSearchPlus' is defined but never used                                                                   [33m[4mno-unused-vars[24m[39m
+  [1mLine 11:10:[22m  'text' is assigned a value but never used                                                                  [33m[4mno-unused-vars[24m[39m
+  [1mLine 21:11:[22m  img elements must have an alt prop, either with meaningful text, or an empty string for decorative images  [33m[4mjsx-a11y/alt-text[24m[39m
+
+Search for the [4m[33mkeywords[39m[24m to learn more about each warning.
+To ignore, add [36m// eslint-disable-next-line[39m to the line before.
+
+[2J[3J[HCompiling...
+[2J[3J[H[33mCompiled with warnings.[39m
+[33m[39m
+[7m./src/App.js[27m
+  [1mLine 4:10:[22m   'FontAwesomeIcon' is defined but never used                                                                [33m[4mno-unused-vars[24m[39m
+  [1mLine 5:10:[22m   'faSearchPlus' is defined but never used                                                                   [33m[4mno-unused-vars[24m[39m
+  [1mLine 11:10:[22m  'text' is assigned a value but never used                                                                  [33m[4mno-unused-vars[24m[39m
+  [1mLine 21:11:[22m  img elements must have an alt prop, either with meaningful text, or an empty string for decorative images  [33m[4mjsx-a11y/alt-text[24m[39m
+
+Search for the [4m[33mkeywords[39m[24m to learn more about each warning.
+To ignore, add [36m// eslint-disable-next-line[39m to the line before.
+
+[2J[3J[HCompiling...
+[2J[3J[H[33mCompiled with warnings.[39m
+[33m[39m
+[7m./src/App.js[27m
+  [1mLine 4:10:[22m   'FontAwesomeIcon' is defined but never used                                                                [33m[4mno-unused-vars[24m[39m
+  [1mLine 5:10:[22m   'faSearchPlus' is defined but never used                                                                   [33m[4mno-unused-vars[24m[39m
+  [1mLine 11:10:[22m  'text' is assigned a value but never used                                                                  [33m[4mno-unused-vars[24m[39m
+  [1mLine 21:11:[22m  img elements must have an alt prop, either with meaningful text, or an empty string for decorative images  [33m[4mjsx-a11y/alt-text[24m[39m
+
+Search for the [4m[33mkeywords[39m[24m to learn more about each warning.
+To ignore, add [36m// eslint-disable-next-line[39m to the line before.
+
+[2J[3J[HCompiling...
+[2J[3J[H[33mCompiled with warnings.[39m
+[33m[39m
+[7m./src/App.js[27m
+  [1mLine 4:10:[22m   'FontAwesomeIcon' is defined but never used                                                                [33m[4mno-unused-vars[24m[39m
+  [1mLine 5:10:[22m   'faSearchPlus' is defined but never used                                                                   [33m[4mno-unused-vars[24m[39m
+  [1mLine 11:10:[22m  'text' is assigned a value but never used                                                                  [33m[4mno-unused-vars[24m[39m
+  [1mLine 21:11:[22m  img elements must have an alt prop, either with meaningful text, or an empty string for decorative images  [33m[4mjsx-a11y/alt-text[24m[39m
+
+Search for the [4m[33mkeywords[39m[24m to learn more about each warning.
+To ignore, add [36m// eslint-disable-next-line[39m to the line before.
+
+[2J[3J[HCompiling...
+[2J[3J[H[33mCompiled with warnings.[39m
+[33m[39m
+[7m./src/App.js[27m
+  [1mLine 4:10:[22m   'FontAwesomeIcon' is defined but never used                                                                [33m[4mno-unused-vars[24m[39m
+  [1mLine 5:10:[22m   'faSearchPlus' is defined but never used                                                                   [33m[4mno-unused-vars[24m[39m
+  [1mLine 11:10:[22m  'text' is assigned a value but never used                                                                  [33m[4mno-unused-vars[24m[39m
+  [1mLine 21:11:[22m  img elements must have an alt prop, either with meaningful text, or an empty string for decorative images  [33m[4mjsx-a11y/alt-text[24m[39m
+
+Search for the [4m[33mkeywords[39m[24m to learn more about each warning.
+To ignore, add [36m// eslint-disable-next-line[39m to the line before.
+
+[2J[3J[HCompiling...
+[2J[3J[H[33mCompiled with warnings.[39m
+[33m[39m
+[7m./src/App.js[27m
+  [1mLine 4:10:[22m   'FontAwesomeIcon' is defined but never used                                                                [33m[4mno-unused-vars[24m[39m
+  [1mLine 5:10:[22m   'faSearchPlus' is defined but never used                                                                   [33m[4mno-unused-vars[24m[39m
+  [1mLine 11:10:[22m  'text' is assigned a value but never used                                                                  [33m[4mno-unused-vars[24m[39m
+  [1mLine 21:11:[22m  img elements must have an alt prop, either with meaningful text, or an empty string for decorative images  [33m[4mjsx-a11y/alt-text[24m[39m
+
+Search for the [4m[33mkeywords[39m[24m to learn more about each warning.
+To ignore, add [36m// eslint-disable-next-line[39m to the line before.
+
+[2J[3J[HCompiling...
+[2J[3J[H[33mCompiled with warnings.[39m
+[33m[39m
+[7m./src/App.js[27m
+  [1mLine 4:10:[22m   'FontAwesomeIcon' is defined but never used                                                                [33m[4mno-unused-vars[24m[39m
+  [1mLine 5:10:[22m   'faSearchPlus' is defined but never used                                                                   [33m[4mno-unused-vars[24m[39m
+  [1mLine 11:10:[22m  'text' is assigned a value but never used                                                                  [33m[4mno-unused-vars[24m[39m
+  [1mLine 21:11:[22m  img elements must have an alt prop, either with meaningful text, or an empty string for decorative images  [33m[4mjsx-a11y/alt-text[24m[39m
+
+Search for the [4m[33mkeywords[39m[24m to learn more about each warning.
+To ignore, add [36m// eslint-disable-next-line[39m to the line before.
+
+[2J[3J[HCompiling...
+[2J[3J[H[33mCompiled with warnings.[39m
+[33m[39m
+[7m./src/App.js[27m
+  [1mLine 4:10:[22m   'FontAwesomeIcon' is defined but never used                                                                [33m[4mno-unused-vars[24m[39m
+  [1mLine 5:10:[22m   'faSearchPlus' is defined but never used                                                                   [33m[4mno-unused-vars[24m[39m
+  [1mLine 11:10:[22m  'text' is assigned a value but never used                                                                  [33m[4mno-unused-vars[24m[39m
+  [1mLine 21:11:[22m  img elements must have an alt prop, either with meaningful text, or an empty string for decorative images  [33m[4mjsx-a11y/alt-text[24m[39m
+
+Search for the [4m[33mkeywords[39m[24m to learn more about each warning.
+To ignore, add [36m// eslint-disable-next-line[39m to the line before.
+
+[2J[3J[HCompiling...
+[2J[3J[H[33mCompiled with warnings.[39m
+[33m[39m
+[7m./src/App.js[27m
+  [1mLine 4:10:[22m   'FontAwesomeIcon' is defined but never used                                                                [33m[4mno-unused-vars[24m[39m
+  [1mLine 5:10:[22m   'faSearchPlus' is defined but never used                                                                   [33m[4mno-unused-vars[24m[39m
+  [1mLine 11:10:[22m  'text' is assigned a value but never used                                                                  [33m[4mno-unused-vars[24m[39m
+  [1mLine 21:11:[22m  img elements must have an alt prop, either with meaningful text, or an empty string for decorative images  [33m[4mjsx-a11y/alt-text[24m[39m
+
+Search for the [4m[33mkeywords[39m[24m to learn more about each warning.
+To ignore, add [36m// eslint-disable-next-line[39m to the line before.
+
+[2J[3J[HCompiling...
+[2J[3J[H[33mCompiled with warnings.[39m
+[33m[39m
+[7m./src/App.js[27m
+  [1mLine 4:10:[22m   'FontAwesomeIcon' is defined but never used                                                                [33m[4mno-unused-vars[24m[39m
+  [1mLine 5:10:[22m   'faSearchPlus' is defined but never used                                                                   [33m[4mno-unused-vars[24m[39m
+  [1mLine 11:10:[22m  'text' is assigned a value but never used                                                                  [33m[4mno-unused-vars[24m[39m
+  [1mLine 21:11:[22m  img elements must have an alt prop, either with meaningful text, or an empty string for decorative images  [33m[4mjsx-a11y/alt-text[24m[39m
+
+Search for the [4m[33mkeywords[39m[24m to learn more about each warning.
+To ignore, add [36m// eslint-disable-next-line[39m to the line before.
+
+[2J[3J[HCompiling...
+[2J[3J[H[33mCompiled with warnings.[39m
+[33m[39m
+[7m./src/App.js[27m
+  [1mLine 4:10:[22m   'FontAwesomeIcon' is defined but never used                                                                [33m[4mno-unused-vars[24m[39m
+  [1mLine 5:10:[22m   'faSearchPlus' is defined but never used                                                                   [33m[4mno-unused-vars[24m[39m
+  [1mLine 11:10:[22m  'text' is assigned a value but never used                                                                  [33m[4mno-unused-vars[24m[39m
+  [1mLine 21:11:[22m  img elements must have an alt prop, either with meaningful text, or an empty string for decorative images  [33m[4mjsx-a11y/alt-text[24m[39m
+
+Search for the [4m[33mkeywords[39m[24m to learn more about each warning.
+To ignore, add [36m// eslint-disable-next-line[39m to the line before.
+
+[2J[3J[HCompiling...
+[2J[3J[H[33mCompiled with warnings.[39m
+[33m[39m
+[7m./src/App.js[27m
+  [1mLine 4:10:[22m   'FontAwesomeIcon' is defined but never used                                                                [33m[4mno-unused-vars[24m[39m
+  [1mLine 5:10:[22m   'faSearchPlus' is defined but never used                                                                   [33m[4mno-unused-vars[24m[39m
+  [1mLine 11:10:[22m  'text' is assigned a value but never used                                                                  [33m[4mno-unused-vars[24m[39m
+  [1mLine 21:11:[22m  img elements must have an alt prop, either with meaningful text, or an empty string for decorative images  [33m[4mjsx-a11y/alt-text[24m[39m
+
+Search for the [4m[33mkeywords[39m[24m to learn more about each warning.
+To ignore, add [36m// eslint-disable-next-line[39m to the line before.
+
+[2J[3J[HCompiling...
+[2J[3J[H[33mCompiled with warnings.[39m
+[33m[39m
+[7m./src/App.js[27m
+  [1mLine 4:10:[22m   'FontAwesomeIcon' is defined but never used                                                                [33m[4mno-unused-vars[24m[39m
+  [1mLine 5:10:[22m   'faSearchPlus' is defined but never used                                                                   [33m[4mno-unused-vars[24m[39m
+  [1mLine 11:10:[22m  'text' is assigned a value but never used                                                                  [33m[4mno-unused-vars[24m[39m
+  [1mLine 21:11:[22m  img elements must have an alt prop, either with meaningful text, or an empty string for decorative images  [33m[4mjsx-a11y/alt-text[24m[39m
+
+Search for the [4m[33mkeywords[39m[24m to learn more about each warning.
+To ignore, add [36m// eslint-disable-next-line[39m to the line before.
+
+[2J[3J[HCompiling...
+[2J[3J[H[33mCompiled with warnings.[39m
+[33m[39m
+[7m./src/App.js[27m
+  [1mLine 4:10:[22m   'FontAwesomeIcon' is defined but never used                                                                [33m[4mno-unused-vars[24m[39m
+  [1mLine 5:10:[22m   'faSearchPlus' is defined but never used                                                                   [33m[4mno-unused-vars[24m[39m
+  [1mLine 11:10:[22m  'text' is assigned a value but never used                                                                  [33m[4mno-unused-vars[24m[39m
+  [1mLine 21:11:[22m  img elements must have an alt prop, either with meaningful text, or an empty string for decorative images  [33m[4mjsx-a11y/alt-text[24m[39m
+
+Search for the [4m[33mkeywords[39m[24m to learn more about each warning.
+To ignore, add [36m// eslint-disable-next-line[39m to the line before.
+
+[2J[3J[HCompiling...
+[2J[3J[H[33mCompiled with warnings.[39m
+[33m[39m
+[7m./src/App.js[27m
+  [1mLine 4:10:[22m   'FontAwesomeIcon' is defined but never used                                                                [33m[4mno-unused-vars[24m[39m
+  [1mLine 5:10:[22m   'faSearchPlus' is defined but never used                                                                   [33m[4mno-unused-vars[24m[39m
+  [1mLine 11:10:[22m  'text' is assigned a value but never used                                                                  [33m[4mno-unused-vars[24m[39m
+  [1mLine 21:11:[22m  img elements must have an alt prop, either with meaningful text, or an empty string for decorative images  [33m[4mjsx-a11y/alt-text[24m[39m
+
+Search for the [4m[33mkeywords[39m[24m to learn more about each warning.
+To ignore, add [36m// eslint-disable-next-line[39m to the line before.
+
+[2J[3J[HCompiling...
+[2J[3J[H[33mCompiled with warnings.[39m
+[33m[39m
+[7m./src/App.js[27m
+  [1mLine 4:10:[22m   'FontAwesomeIcon' is defined but never used                                                                [33m[4mno-unused-vars[24m[39m
+  [1mLine 5:10:[22m   'faSearchPlus' is defined but never used                                                                   [33m[4mno-unused-vars[24m[39m
+  [1mLine 11:10:[22m  'text' is assigned a value but never used                                                                  [33m[4mno-unused-vars[24m[39m
+  [1mLine 21:11:[22m  img elements must have an alt prop, either with meaningful text, or an empty string for decorative images  [33m[4mjsx-a11y/alt-text[24m[39m
+
+Search for the [4m[33mkeywords[39m[24m to learn more about each warning.
+To ignore, add [36m// eslint-disable-next-line[39m to the line before.
+
+[2J[3J[HCompiling...
+[2J[3J[H[33mCompiled with warnings.[39m
+[33m[39m
+[7m./src/App.js[27m
+  [1mLine 4:10:[22m   'FontAwesomeIcon' is defined but never used                                                                [33m[4mno-unused-vars[24m[39m
+  [1mLine 5:10:[22m   'faSearchPlus' is defined but never used                                                                   [33m[4mno-unused-vars[24m[39m
+  [1mLine 11:10:[22m  'text' is assigned a value but never used                                                                  [33m[4mno-unused-vars[24m[39m
+  [1mLine 21:11:[22m  img elements must have an alt prop, either with meaningful text, or an empty string for decorative images  [33m[4mjsx-a11y/alt-text[24m[39m
+
+Search for the [4m[33mkeywords[39m[24m to learn more about each warning.
+To ignore, add [36m// eslint-disable-next-line[39m to the line before.
+
+[2J[3J[HCompiling...
+[2J[3J[H[33mCompiled with warnings.[39m
+[33m[39m
+[7m./src/App.js[27m
+  [1mLine 4:10:[22m   'FontAwesomeIcon' is defined but never used                                                                [33m[4mno-unused-vars[24m[39m
+  [1mLine 5:10:[22m   'faSearchPlus' is defined but never used                                                                   [33m[4mno-unused-vars[24m[39m
+  [1mLine 11:10:[22m  'text' is assigned a value but never used                                                                  [33m[4mno-unused-vars[24m[39m
+  [1mLine 21:11:[22m  img elements must have an alt prop, either with meaningful text, or an empty string for decorative images  [33m[4mjsx-a11y/alt-text[24m[39m
+
+Search for the [4m[33mkeywords[39m[24m to learn more about each warning.
+To ignore, add [36m// eslint-disable-next-line[39m to the line before.
+
+[2J[3J[HCompiling...
+[2J[3J[H[33mCompiled with warnings.[39m
+[33m[39m
+[7m./src/App.js[27m
+  [1mLine 4:10:[22m   'FontAwesomeIcon' is defined but never used                                                                [33m[4mno-unused-vars[24m[39m
+  [1mLine 5:10:[22m   'faSearchPlus' is defined but never used                                                                   [33m[4mno-unused-vars[24m[39m
+  [1mLine 11:10:[22m  'text' is assigned a value but never used                                                                  [33m[4mno-unused-vars[24m[39m
+  [1mLine 21:11:[22m  img elements must have an alt prop, either with meaningful text, or an empty string for decorative images  [33m[4mjsx-a11y/alt-text[24m[39m
+
+Search for the [4m[33mkeywords[39m[24m to learn more about each warning.
+To ignore, add [36m// eslint-disable-next-line[39m to the line before.
+
+[2J[3J[HCompiling...
+[2J[3J[H[33mCompiled with warnings.[39m
+[33m[39m
+[7m./src/App.js[27m
+  [1mLine 4:10:[22m   'FontAwesomeIcon' is defined but never used                                                                [33m[4mno-unused-vars[24m[39m
+  [1mLine 5:10:[22m   'faSearchPlus' is defined but never used                                                                   [33m[4mno-unused-vars[24m[39m
+  [1mLine 11:10:[22m  'text' is assigned a value but never used                                                                  [33m[4mno-unused-vars[24m[39m
+  [1mLine 21:11:[22m  img elements must have an alt prop, either with meaningful text, or an empty string for decorative images  [33m[4mjsx-a11y/alt-text[24m[39m
+
+Search for the [4m[33mkeywords[39m[24m to learn more about each warning.
+To ignore, add [36m// eslint-disable-next-line[39m to the line before.
+
+[2J[3J[HCompiling...
+[2J[3J[H[33mCompiled with warnings.[39m
+[33m[39m
+[7m./src/App.js[27m
+  [1mLine 4:10:[22m   'FontAwesomeIcon' is defined but never used                                                                [33m[4mno-unused-vars[24m[39m
+  [1mLine 5:10:[22m   'faSearchPlus' is defined but never used                                                                   [33m[4mno-unused-vars[24m[39m
+  [1mLine 11:10:[22m  'text' is assigned a value but never used                                                                  [33m[4mno-unused-vars[24m[39m
+  [1mLine 21:11:[22m  img elements must have an alt prop, either with meaningful text, or an empty string for decorative images  [33m[4mjsx-a11y/alt-text[24m[39m
+
+Search for the [4m[33mkeywords[39m[24m to learn more about each warning.
+To ignore, add [36m// eslint-disable-next-line[39m to the line before.
+
+[2J[3J[HCompiling...
+[2J[3J[H[33mCompiled with warnings.[39m
+[33m[39m
+[7m./src/App.js[27m
+  [1mLine 4:10:[22m   'FontAwesomeIcon' is defined but never used                                                                [33m[4mno-unused-vars[24m[39m
+  [1mLine 5:10:[22m   'faSearchPlus' is defined but never used                                                                   [33m[4mno-unused-vars[24m[39m
+  [1mLine 11:10:[22m  'text' is assigned a value but never used                                                                  [33m[4mno-unused-vars[24m[39m
+  [1mLine 21:11:[22m  img elements must have an alt prop, either with meaningful text, or an empty string for decorative images  [33m[4mjsx-a11y/alt-text[24m[39m
+
+Search for the [4m[33mkeywords[39m[24m to learn more about each warning.
+To ignore, add [36m// eslint-disable-next-line[39m to the line before.
+
+[2J[3J[HCompiling...
+[2J[3J[H[33mCompiled with warnings.[39m
+[33m[39m
+[7m./src/App.js[27m
+  [1mLine 4:10:[22m   'FontAwesomeIcon' is defined but never used                                                                [33m[4mno-unused-vars[24m[39m
+  [1mLine 5:10:[22m   'faSearchPlus' is defined but never used                                                                   [33m[4mno-unused-vars[24m[39m
+  [1mLine 11:10:[22m  'text' is assigned a value but never used                                                                  [33m[4mno-unused-vars[24m[39m
+  [1mLine 21:11:[22m  img elements must have an alt prop, either with meaningful text, or an empty string for decorative images  [33m[4mjsx-a11y/alt-text[24m[39m
+
+Search for the [4m[33mkeywords[39m[24m to learn more about each warning.
+To ignore, add [36m// eslint-disable-next-line[39m to the line before.
+
+[2J[3J[HCompiling...
+[2J[3J[H[33mCompiled with warnings.[39m
+[33m[39m
+[7m./src/App.js[27m
+  [1mLine 4:10:[22m   'FontAwesomeIcon' is defined but never used                                                                [33m[4mno-unused-vars[24m[39m
+  [1mLine 5:10:[22m   'faSearchPlus' is defined but never used                                                                   [33m[4mno-unused-vars[24m[39m
+  [1mLine 11:10:[22m  'text' is assigned a value but never used                                                                  [33m[4mno-unused-vars[24m[39m
+  [1mLine 21:11:[22m  img elements must have an alt prop, either with meaningful text, or an empty string for decorative images  [33m[4mjsx-a11y/alt-text[24m[39m
+
+Search for the [4m[33mkeywords[39m[24m to learn more about each warning.
+To ignore, add [36m// eslint-disable-next-line[39m to the line before.
+
+[2J[3J[HCompiling...
+[2J[3J[H[33mCompiled with warnings.[39m
+[33m[39m
+[7m./src/App.js[27m
+  [1mLine 4:10:[22m   'FontAwesomeIcon' is defined but never used                                                                [33m[4mno-unused-vars[24m[39m
+  [1mLine 5:10:[22m   'faSearchPlus' is defined but never used                                                                   [33m[4mno-unused-vars[24m[39m
+  [1mLine 11:10:[22m  'text' is assigned a value but never used                                                                  [33m[4mno-unused-vars[24m[39m
+  [1mLine 21:11:[22m  img elements must have an alt prop, either with meaningful text, or an empty string for decorative images  [33m[4mjsx-a11y/alt-text[24m[39m
+
+Search for the [4m[33mkeywords[39m[24m to learn more about each warning.
+To ignore, add [36m// eslint-disable-next-line[39m to the line before.
+
+[2J[3J[HCompiling...
+[2J[3J[H[33mCompiled with warnings.[39m
+[33m[39m
+[7m./src/App.js[27m
+  [1mLine 4:10:[22m   'FontAwesomeIcon' is defined but never used                                                                [33m[4mno-unused-vars[24m[39m
+  [1mLine 5:10:[22m   'faSearchPlus' is defined but never used                                                                   [33m[4mno-unused-vars[24m[39m
+  [1mLine 11:10:[22m  'text' is assigned a value but never used                                                                  [33m[4mno-unused-vars[24m[39m
+  [1mLine 21:11:[22m  img elements must have an alt prop, either with meaningful text, or an empty string for decorative images  [33m[4mjsx-a11y/alt-text[24m[39m
+
+Search for the [4m[33mkeywords[39m[24m to learn more about each warning.
+To ignore, add [36m// eslint-disable-next-line[39m to the line before.
+
+[2J[3J[HCompiling...
+[2J[3J[H[33mCompiled with warnings.[39m
+[33m[39m
+[7m./src/App.js[27m
+  [1mLine 4:10:[22m   'FontAwesomeIcon' is defined but never used                                                                [33m[4mno-unused-vars[24m[39m
+  [1mLine 5:10:[22m   'faSearchPlus' is defined but never used                                                                   [33m[4mno-unused-vars[24m[39m
+  [1mLine 11:10:[22m  'text' is assigned a value but never used                                                                  [33m[4mno-unused-vars[24m[39m
+  [1mLine 21:11:[22m  img elements must have an alt prop, either with meaningful text, or an empty string for decorative images  [33m[4mjsx-a11y/alt-text[24m[39m
+
+Search for the [4m[33mkeywords[39m[24m to learn more about each warning.
+To ignore, add [36m// eslint-disable-next-line[39m to the line before.
+
+[2J[3J[HCompiling...
+[2J[3J[H[33mCompiled with warnings.[39m
+[33m[39m
+[7m./src/App.js[27m
+  [1mLine 4:10:[22m   'FontAwesomeIcon' is defined but never used                                                                [33m[4mno-unused-vars[24m[39m
+  [1mLine 5:10:[22m   'faSearchPlus' is defined but never used                                                                   [33m[4mno-unused-vars[24m[39m
+  [1mLine 11:10:[22m  'text' is assigned a value but never used                                                                  [33m[4mno-unused-vars[24m[39m
+  [1mLine 21:11:[22m  img elements must have an alt prop, either with meaningful text, or an empty string for decorative images  [33m[4mjsx-a11y/alt-text[24m[39m
+
+Search for the [4m[33mkeywords[39m[24m to learn more about each warning.
+To ignore, add [36m// eslint-disable-next-line[39m to the line before.
+
+[2J[3J[HCompiling...
+[2J[3J[H[33mCompiled with warnings.[39m
+[33m[39m
+[7m./src/App.js[27m
+  [1mLine 4:10:[22m   'FontAwesomeIcon' is defined but never used                                                                [33m[4mno-unused-vars[24m[39m
+  [1mLine 5:10:[22m   'faSearchPlus' is defined but never used                                                                   [33m[4mno-unused-vars[24m[39m
+  [1mLine 11:10:[22m  'text' is assigned a value but never used                                                                  [33m[4mno-unused-vars[24m[39m
+  [1mLine 21:11:[22m  img elements must have an alt prop, either with meaningful text, or an empty string for decorative images  [33m[4mjsx-a11y/alt-text[24m[39m
+
+Search for the [4m[33mkeywords[39m[24m to learn more about each warning.
+To ignore, add [36m// eslint-disable-next-line[39m to the line before.
+
+[2J[3J[HCompiling...
+[2J[3J[H[33mCompiled with warnings.[39m
+[33m[39m
+[7m./src/App.js[27m
+  [1mLine 4:10:[22m   'FontAwesomeIcon' is defined but never used                                                                [33m[4mno-unused-vars[24m[39m
+  [1mLine 5:10:[22m   'faSearchPlus' is defined but never used                                                                   [33m[4mno-unused-vars[24m[39m
+  [1mLine 11:10:[22m  'text' is assigned a value but never used                                                                  [33m[4mno-unused-vars[24m[39m
+  [1mLine 21:11:[22m  img elements must have an alt prop, either with meaningful text, or an empty string for decorative images  [33m[4mjsx-a11y/alt-text[24m[39m
+
+Search for the [4m[33mkeywords[39m[24m to learn more about each warning.
+To ignore, add [36m// eslint-disable-next-line[39m to the line before.
+
+[2J[3J[HCompiling...
+[2J[3J[H[33mCompiled with warnings.[39m
+[33m[39m
+[7m./src/App.js[27m
+  [1mLine 4:10:[22m   'FontAwesomeIcon' is defined but never used                                                                [33m[4mno-unused-vars[24m[39m
+  [1mLine 5:10:[22m   'faSearchPlus' is defined but never used                                                                   [33m[4mno-unused-vars[24m[39m
+  [1mLine 11:10:[22m  'text' is assigned a value but never used                                                                  [33m[4mno-unused-vars[24m[39m
+  [1mLine 21:11:[22m  img elements must have an alt prop, either with meaningful text, or an empty string for decorative images  [33m[4mjsx-a11y/alt-text[24m[39m
+
+Search for the [4m[33mkeywords[39m[24m to learn more about each warning.
+To ignore, add [36m// eslint-disable-next-line[39m to the line before.
+
+[2J[3J[HCompiling...
+[2J[3J[H[33mCompiled with warnings.[39m
+[33m[39m
+[7m./src/App.js[27m
+  [1mLine 4:10:[22m   'FontAwesomeIcon' is defined but never used                                                                [33m[4mno-unused-vars[24m[39m
+  [1mLine 5:10:[22m   'faSearchPlus' is defined but never used                                                                   [33m[4mno-unused-vars[24m[39m
+  [1mLine 11:10:[22m  'text' is assigned a value but never used                                                                  [33m[4mno-unused-vars[24m[39m
+  [1mLine 21:11:[22m  img elements must have an alt prop, either with meaningful text, or an empty string for decorative images  [33m[4mjsx-a11y/alt-text[24m[39m
+
+Search for the [4m[33mkeywords[39m[24m to learn more about each warning.
+To ignore, add [36m// eslint-disable-next-line[39m to the line before.
+
+[2J[3J[HCompiling...
+[2J[3J[H[33mCompiled with warnings.[39m
+[33m[39m
+[7m./src/App.js[27m
+  [1mLine 4:10:[22m   'FontAwesomeIcon' is defined but never used                                                                [33m[4mno-unused-vars[24m[39m
+  [1mLine 5:10:[22m   'faSearchPlus' is defined but never used                                                                   [33m[4mno-unused-vars[24m[39m
+  [1mLine 11:10:[22m  'text' is assigned a value but never used                                                                  [33m[4mno-unused-vars[24m[39m
+  [1mLine 21:11:[22m  img elements must have an alt prop, either with meaningful text, or an empty string for decorative images  [33m[4mjsx-a11y/alt-text[24m[39m
+
+Search for the [4m[33mkeywords[39m[24m to learn more about each warning.
+To ignore, add [36m// eslint-disable-next-line[39m to the line before.
+
+[2J[3J[HCompiling...
+[2J[3J[H[33mCompiled with warnings.[39m
+[33m[39m
+[7m./src/App.js[27m
+  [1mLine 4:10:[22m   'FontAwesomeIcon' is defined but never used                                                                [33m[4mno-unused-vars[24m[39m
+  [1mLine 5:10:[22m   'faSearchPlus' is defined but never used                                                                   [33m[4mno-unused-vars[24m[39m
+  [1mLine 11:10:[22m  'text' is assigned a value but never used                                                                  [33m[4mno-unused-vars[24m[39m
+  [1mLine 21:11:[22m  img elements must have an alt prop, either with meaningful text, or an empty string for decorative images  [33m[4mjsx-a11y/alt-text[24m[39m
+
+Search for the [4m[33mkeywords[39m[24m to learn more about each warning.
+To ignore, add [36m// eslint-disable-next-line[39m to the line before.
+
+[2J[3J[HCompiling...
+[2J[3J[H[33mCompiled with warnings.[39m
+[33m[39m
+[7m./src/App.js[27m
+  [1mLine 4:10:[22m   'FontAwesomeIcon' is defined but never used                                                                [33m[4mno-unused-vars[24m[39m
+  [1mLine 5:10:[22m   'faSearchPlus' is defined but never used                                                                   [33m[4mno-unused-vars[24m[39m
+  [1mLine 11:10:[22m  'text' is assigned a value but never used                                                                  [33m[4mno-unused-vars[24m[39m
+  [1mLine 21:11:[22m  img elements must have an alt prop, either with meaningful text, or an empty string for decorative images  [33m[4mjsx-a11y/alt-text[24m[39m
+
+Search for the [4m[33mkeywords[39m[24m to learn more about each warning.
+To ignore, add [36m// eslint-disable-next-line[39m to the line before.
+

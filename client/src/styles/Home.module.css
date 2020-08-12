@@ -1,0 +1,104 @@
+.container {
+    background-color: var(--beige);
+    min-height: 100vh;
+}
+
+.searchContainer {
+    background-color: var(--navy);
+    height: 60vh;
+    min-height: 300px;
+    padding: 16px;
+    width: 100%;
+}
+
+.searchBarContainer {
+    margin-top: 152px;
+}
+
+.question {
+    color: var(--beige);
+    display: block;
+    font-size: 32px;
+    font-weight: 600;
+    margin-bottom: 24px;
+    text-align: center;
+}
+
+.emTxt {
+    color: var(--orange);
+}
+
+.searchBar {
+    margin: auto;
+    max-width: 90%;
+    position: relative;
+    width: 480px;
+}
+
+.searchBar > input {
+    padding: 16px;
+    padding-left: 42px;
+}
+
+.searchIcon {
+    color: #616161;
+    font-size: 22px;
+    left: 12px;
+    opacity: 0.8;
+    position: absolute;
+    top: 9px;
+}
+
+.info {
+    max-width: 1200px;
+}
+
+.graphicCard {
+    margin-top: 48px;
+}
+
+.graphic {
+    height: 160px;
+    width: 160px;
+}
+
+.graphicTitle {
+    color: var(--navy);
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.graphicTitle::after {
+    color: var(--periwinkle);
+    content: '.';
+    font-size: 32px;
+    font-weight: 800;
+    padding-left: 1px;
+}
+
+.graphicDescription {
+    color: var(--dark-gray);
+}
+
+
+.period {
+    color: var(--periwinkle);
+}
+
+/* Small devices (landscape phones) */
+@media (max-width: 677px) {
+    .searchBarContainer {
+        margin-top: 120px;
+    }
+
+    .question {
+        font-size: 28px;
+    }
+}
+
+/* Small devices (portrait phones) */
+@media (max-width: 450px) {
+    .searchContainer {
+        height: 30vh;
+    }
+}
