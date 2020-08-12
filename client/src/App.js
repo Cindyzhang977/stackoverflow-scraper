@@ -1,9 +1,11 @@
 import React, { useState, useEffect } from 'react'
+import { BrowserRouter as Router, Switch, Route, useLocation } from 'react-router-dom';
 import './styles/App.css'
 import Nav from 'react-bootstrap/Nav'
 
 import logo from './imgs/logo.png'
 import Home from './Home.js'
+import SearchResults from './SearchResults'
 
 function App() {
   const [text, setText] = useState("hi")
@@ -13,7 +15,7 @@ function App() {
   }, [])
 
   return (
-    <div className="App">
+    <Router>
       <Nav>
         <Nav.Link href="/">
           <img src={logo} className="navLogo" />
@@ -26,8 +28,15 @@ function App() {
         </Nav.Link>
       </Nav>
       {/*<p>{text}</p>*/}
-      <Home />
-    </div>
+        <Switch>
+          <Route exact path='/'>
+            <Home />
+          </Route>
+          <Route path='/searchResults'>
+            <SearchResults />
+          </Route>
+        </Switch>
+    </Router>
   );
 }
 

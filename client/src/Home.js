@@ -1,4 +1,5 @@
-import React from 'react'
+import React, { useState } from 'react'
+import { useHistory } from 'react-router-dom'
 import styles from './styles/Home.module.css'
 import Container from 'react-bootstrap/Container'
 import Row from 'react-bootstrap/Row'
@@ -11,6 +12,20 @@ import search from './imgs/search.svg'
 import browse from './imgs/browse.svg'
 
 function Home() {
+  const [searchText, setSearchText] = useState('')
+  const history = useHistory();
+
+  function handleOnChange(e) {
+    setSearchText(e.target.value)
+  }
+
+  function handleOnKeyPress(e) {
+    if (e.key === 'Enter') {
+      console.log(searchText)
+      history.push(`/searchResults?query=${searchText}`)
+    }
+  }
+
   return (
     <div className={styles.container}>
       <div className={styles.searchContainer}>
@@ -20,7 +35,7 @@ function Home() {
           </Row>
           <Row className={styles.searchBar}>
             <FontAwesomeIcon icon={faSearch} className={styles.searchIcon} />
-            <Form.Control size="md" type="text" placeholder="Search" />
+            <Form.Control size="md" type="text" placeholder="Search" onChange={handleOnChange} onKeyPress={handleOnKeyPress}/>
           </Row>
         </Container>
       </div>
