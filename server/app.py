@@ -1,4 +1,5 @@
 from flask import Flask
+import script
 
 app = Flask(__name__)
 
@@ -7,5 +8,6 @@ def hello_world():
 	return {'text': 'Hello world!'}
 
 @app.route('/scrape-query')
-def scrape_query():
-	return {'results': 'Here is json of results'}
+@app.route('/scrape-query/<query>')
+def scrape_query(query):
+	return {'results': script.scrape(query)}

@@ -22,7 +22,7 @@ function Home() {
   function handleOnKeyPress(e) {
     if (e.key === 'Enter') {
       console.log(searchText)
-      history.push(`/searchResults?query=${searchText}`)
+      history.push(`/searchResults?query=${encodeURIComponent(searchText)}`)
     }
   }
 
