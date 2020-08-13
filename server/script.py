@@ -15,7 +15,7 @@ def parse_page(url):
     data['question'] = soup.h1.a.text
     posts = soup.find_all('div', {'class': 'post-text'})
     data['post'] = str(posts[0])
-    data['answers'] = str(posts[1]) if len(posts) > 1 else []
+    data['answer'] = str(posts[1]) if len(posts) > 1 else []
     return data
 
 
