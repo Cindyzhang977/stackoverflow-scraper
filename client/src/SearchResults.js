@@ -4,8 +4,6 @@ import queryString from 'query-string'
 import styles from './styles/SearchResults.module.css'
 import Spinner from 'react-bootstrap/Spinner'
 
-// import data from './data.js';
-
 import Result from './Result.js'
 
 function SearchResults() {
@@ -47,9 +45,19 @@ function SearchResults() {
                     </div>
             }
             <div className={styles.resultsContainer}>
-                {results && results.map((result, index) =>
-                    <Result result={result} index={index} hasPrev={index !== 0} hasNext={index < results.length} key={index} />
-                )}
+                {
+                    results && results.length > 0 ?
+                        results.map((result, index) =>
+                            <Result result={result} index={index} hasPrev={index !== 0} hasNext={index < results.length - 1} key={index} />
+                        ) 
+                    :
+                    !loading ?
+                    <div className={styles.noResults}>
+                        No Results Found.
+                    </div>
+                    :
+                    <></>
+                }
             </div>
         </div>
     )

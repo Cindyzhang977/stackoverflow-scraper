@@ -44,11 +44,11 @@ function Result({ result, index, hasPrev, hasNext }) {
                         Answer
                     </div>
                     <a className={styles.moreAnswersLabel} href={result.url}>
-                        {result.numAnswers - 1} more answers
+                        {Math.max(0, result.numAnswers - 1)} more answers
                     </a>
                     
                 </div>
-                {ReactHtmlParser(result.answer)}
+                {result.answer === '' ? 'No Answer Found.' : ReactHtmlParser(result.answer)}
             </div>
             <div className={styles.urlBtnContainer}>
                 <Button href={result.url} target="_blank" rel="noopener noreferrer" className={styles.urlBtn}>
