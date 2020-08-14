@@ -1,4 +1,76 @@
+pre {
+    background-color: #d4d4d4;
+    border-radius: 4px;
+    padding: 24px;
+}
+
 .container {
     background-color: var(--beige);
     border-radius: 8px;
+    margin: 24px;
+    opacity: 0.9;
+    padding: 24px;
+}
+
+.question {
+    border-left: 4px solid var(--periwinkle);
+    color: var(--periwinkle);
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 16px;
+    padding-left: 8px;
+}
+
+.toggleArrowsContainer {
+    align-items: center;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.toggleArrow {
+    background-color: var(--periwinkle);
+    border: none;
+    color: whitesmoke;
+    font-size: 16px;
+    margin: 0 4px;
+    padding: 2px 12px;
+    opacity: 0.6;
+}
+
+.toggleArrow:hover {
+    background-color: var(--periwinkle);
+    opacity: 0.9;
+}
+
+.toggleArrow > svg {
+    margin-left: 4px;
+}
+
+
+.label {
+    color: var(--orange);
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.label::before {
+    content: '>';
+    font-family: 'Courier New', Courier, monospace;
+    margin-right: 4px;
+}
+
+.urlBtn {
+    background-color: var(--navy);
+    border: none;
+    text-align: center;
+    opacity: 0.8;
+}
+
+.urlBtn:hover {
+    background-color: var(--navy);
+    opacity: 1;
+}
+
+.urlBtnContainer {
+    text-align: center;
 }

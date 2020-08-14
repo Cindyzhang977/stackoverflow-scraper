@@ -9,10 +9,13 @@
     color: var(--beige);
     font-size: 24px;
     font-weight: 500;
+    margin: auto;
+    max-width: 950px;
+    /* border: 2px solid white; */
 }
 
 .question {
-    color: var(--periwinkle)
+    color: var(--orange)
 }
 
 .loadingContainer {
@@ -32,4 +35,9 @@
     border-width: .35rem;
     height: 40px;
     width: 40px;
+}
+
+.resultsContainer {
+    margin: auto;
+    max-width: 1000px;
 }
