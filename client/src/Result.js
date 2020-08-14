@@ -7,10 +7,8 @@ import Col from 'react-bootstrap/Col'
 import Button from 'react-bootstrap/Button'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faAngleDown, faAngleUp, faAngleRight } from '@fortawesome/free-solid-svg-icons'
-import SearchResults from './SearchResults'
 
 function Result({ result, index, hasPrev, hasNext }) {
-    console.log(result)
     return (
         <div className={styles.container} id={`result-${index}`}>
             <Container>
@@ -46,7 +44,7 @@ function Result({ result, index, hasPrev, hasNext }) {
                         Answer
                     </div>
                     <a className={styles.moreAnswersLabel} href={result.url}>
-                        10 more answers
+                        {result.numAnswers - 1} more answers
                     </a>
                     
                 </div>

@@ -1,7 +1,6 @@
 import requests
 from bs4 import BeautifulSoup
 import json
-import sys
 
 
 def parse_page(url):
@@ -15,7 +14,8 @@ def parse_page(url):
     data['question'] = soup.h1.a.text
     posts = soup.find_all('div', {'class': 'post-text'})
     data['post'] = str(posts[0])
-    data['answer'] = str(posts[1]) if len(posts) > 1 else []
+    data['answer'] = str(posts[1])
+    data['numAnswers'] = len(posts) - 1
     return data
 
 
@@ -25,7 +25,7 @@ def scrape(question):
     """
     question = question.replace(' ', '+')
     root = 'https://stackoverflow.com'
-    page = requests.get('https://stackoverflow.com/search?q={0}'.format(question))
+    page = requests.get('{0}/search?q={1}'.format(root, question))
     soup = BeautifulSoup(page.content, 'html.parser')
 
     question_urls = [root + elem.div.h3.a["href"]
@@ -33,6 +33,8 @@ def scrape(question):
 
     data = []
     for url in question_urls:
+        if len(data) == 7:
+            break
         data.append(parse_page(url))
 
     return data

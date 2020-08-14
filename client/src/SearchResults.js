@@ -4,7 +4,7 @@ import queryString from 'query-string'
 import styles from './styles/SearchResults.module.css'
 import Spinner from 'react-bootstrap/Spinner'
 
-import data from './data.js';
+// import data from './data.js';
 
 import Result from './Result.js'
 
@@ -14,21 +14,21 @@ function SearchResults() {
     const [results, setResults] = useState(null)
     const [loading, setLoading] = useState(true)
 
-    // useEffect(() => {
-    //     if (!query) {
-    //         console.log("no query")
-    //         return
-    //     }
-    //     fetch(`/scrape-query/${query}`)
-    //         .then(res => res.json())
-    //         .then(json => {
-    //             console.log(json)
-    //             setResults(json.results)
-    //         })
-    //         .then(() => {
-    //             setLoading(false)
-    //         })
-    // }, [query])
+    useEffect(() => {
+        if (!query) {
+            console.log("no query")
+            return
+        }
+        fetch(`/scrape-query/${query}`)
+            .then(res => res.json())
+            .then(json => {
+                console.log(json)
+                setResults(json.results)
+            })
+            .then(() => {
+                setLoading(false)
+            })
+    }, [query])
 
     return (
         <div className={styles.container}>
@@ -36,7 +36,7 @@ function SearchResults() {
                 Search results for <span className={styles.question}>{query}</span>
             </div>
             {
-                !loading &&
+                loading &&
                     <div className={styles.loadingContainer}>
                         <Spinner animation="border" role="status" className={styles.spinner}>
                             <span className="sr-only">Loading...</span>
@@ -47,8 +47,8 @@ function SearchResults() {
                     </div>
             }
             <div className={styles.resultsContainer}>
-                {data.map((result, index) =>
-                    <Result result={result} index={index} hasPrev={index !== 0} hasNext={index < data.length} key={index} />
+                {results && results.map((result, index) =>
+                    <Result result={result} index={index} hasPrev={index !== 0} hasNext={index < results.length} key={index} />
                 )}
             </div>
         </div>
