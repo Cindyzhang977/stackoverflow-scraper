@@ -1,5 +1,6 @@
 import React, { useState } from 'react'
 import { useHistory } from 'react-router-dom'
+import TextLoop from "react-text-loop"
 import styles from './styles/Home.module.css'
 import Container from 'react-bootstrap/Container'
 import Row from 'react-bootstrap/Row'
@@ -21,7 +22,6 @@ function Home() {
 
   function handleOnKeyPress(e) {
     if (e.key === 'Enter') {
-      console.log(searchText)
       history.push(`/searchResults?query=${encodeURIComponent(searchText)}`)
     }
   }
@@ -31,7 +31,9 @@ function Home() {
       <div className={styles.searchContainer}>
         <Container className={styles.searchBarContainer}>
           <Row className={styles.question}>
-            Search the <span className={styles.emTxt}>Issue</span><span className={styles.period}>.</span>
+            Search the <span className={styles.emTxt}>
+              <TextLoop children={["Bug", "Error Message", "Implementation"]} />
+            </span><span className={styles.period}>.</span>
           </Row>
           <Row className={styles.searchBar}>
             <FontAwesomeIcon icon={faSearch} className={styles.searchIcon} />
@@ -77,12 +79,12 @@ function GraphicCard({img, title, description}) {
 const json = [
   {
     "title": "Search",
-    "description": "Search Stack Overflow for solutions.",
+    "description": "Search Stack Overflow for solutions. Same search bar, same results, but collected all in one place.",
     "img": search,
   },
   {
     "title": "Browse",
-    "description": "Browse through posts and the top response without clicking through links.",
+    "description": "Browse through posts and its top response without clicking through links. If an answer looks promising, click to view on Stack Overflow",
     "img": browse,
   }
 ]

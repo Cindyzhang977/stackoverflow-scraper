@@ -13,6 +13,7 @@
 
 .searchBarContainer {
     margin-top: 152px;
+    max-width: 500px;
 }
 
 .question {
@@ -21,7 +22,7 @@
     font-size: 32px;
     font-weight: 600;
     margin-bottom: 24px;
-    text-align: center;
+    text-align: left;
 }
 
 .emTxt {
@@ -29,10 +30,7 @@
 }
 
 .searchBar {
-    margin: auto;
-    max-width: 90%;
     position: relative;
-    width: 480px;
 }
 
 .searchBar > input {
@@ -61,12 +59,14 @@
 .graphic {
     height: 160px;
     width: 160px;
+    margin-right: 24px;
 }
 
 .graphicTitle {
     color: var(--navy);
     font-size: 24px;
     font-weight: 700;
+    margin-left: 16px;
 }
 
 .graphicTitle::after {
@@ -79,6 +79,7 @@
 
 .graphicDescription {
     color: var(--dark-gray);
+    margin-left: 16px;
 }
 
 
