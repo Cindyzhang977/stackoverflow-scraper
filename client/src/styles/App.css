@@ -6,6 +6,10 @@
   --beige: #f0f0e6;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 .nav {
   background-color: var(--navy);
   font-size: 24px;

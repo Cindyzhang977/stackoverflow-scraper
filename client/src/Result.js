@@ -6,24 +6,24 @@ import Row from 'react-bootstrap/Row'
 import Col from 'react-bootstrap/Col'
 import Button from 'react-bootstrap/Button'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faAngleDown, faAngleUp } from '@fortawesome/free-solid-svg-icons'
+import { faAngleDown, faAngleUp, faAngleRight } from '@fortawesome/free-solid-svg-icons'
 import SearchResults from './SearchResults'
 
-function Result({ result }) {
+function Result({ result, index, hasPrev, hasNext }) {
     console.log(result)
     return (
-        <div className={styles.container}>
+        <div className={styles.container} id={`result-${index}`}>
             <Container>
                 <Row>
                     <Col xs={6} sm={8} lg={9} className={styles.question}>
                         {result.question}
                     </Col>
                     <Col xs={6} sm={4} lg={3} className={styles.toggleArrowsContainer}>
-                        <Button className={styles.toggleArrow}>
+                        <Button className={`${styles.toggleArrow} ${!hasPrev ? styles.disabled : ''}`} href={`#result-${index - 1}`}>
                             prev
                             <FontAwesomeIcon icon={faAngleUp} />
                         </Button>
-                        <Button className={styles.toggleArrow}>
+                        <Button className={`${styles.toggleArrow} ${!hasNext ? styles.disabled : ''}`} href={`#result-${index + 1}`}>
                             next
                             <FontAwesomeIcon icon={faAngleDown} />
                         </Button>
@@ -31,11 +31,25 @@ function Result({ result }) {
                 </Row>
             </Container>
             <div>
-                <div className={styles.label}>Post</div>
+                <div className={styles.label}>
+                    <div>
+                        <FontAwesomeIcon icon={faAngleRight} />
+                        Post
+                    </div>
+                </div>
                 {ReactHtmlParser(result.post)}
             </div>
             <div>
-                <div className={styles.label}>Answer</div>
+                <div className={styles.label}>
+                    <div>
+                        <FontAwesomeIcon icon={faAngleRight} />
+                        Answer
+                    </div>
+                    <a className={styles.moreAnswersLabel} href={result.url}>
+                        10 more answers
+                    </a>
+                    
+                </div>
                 {ReactHtmlParser(result.answer)}
             </div>
             <div className={styles.urlBtnContainer}>

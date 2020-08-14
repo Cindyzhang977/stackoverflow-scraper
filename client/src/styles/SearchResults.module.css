@@ -2,20 +2,20 @@
     background-color: var(--navy);
     min-height: 100vh;
     padding-top: 120px;
-    padding: 120px 64px 24px 64px;
+    padding: 120px 80px 24px 80px;
 }
 
 .questionHeader {
     color: var(--beige);
     font-size: 24px;
-    font-weight: 500;
+    font-weight: 600;
     margin: auto;
-    max-width: 950px;
-    /* border: 2px solid white; */
+    max-width: 1000px;
 }
 
 .question {
-    color: var(--orange)
+    color: var(--orange);
+    font-weight: 800;
 }
 
 .loadingContainer {

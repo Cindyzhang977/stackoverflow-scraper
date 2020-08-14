@@ -7,16 +7,16 @@ pre {
 .container {
     background-color: var(--beige);
     border-radius: 8px;
-    margin: 24px;
+    margin: 24px 0 48px 0;
     opacity: 0.9;
     padding: 24px;
 }
 
 .question {
-    border-left: 4px solid var(--periwinkle);
+    border-left: 6px solid var(--periwinkle);
     color: var(--periwinkle);
     font-size: 24px;
-    font-weight: 600;
+    font-weight: 700;
     margin-bottom: 16px;
     padding-left: 8px;
 }
@@ -31,10 +31,10 @@ pre {
     background-color: var(--periwinkle);
     border: none;
     color: whitesmoke;
-    font-size: 16px;
+    font-size: 14px;
+    font-weight: 700;
     margin: 0 4px;
-    padding: 2px 12px;
-    opacity: 0.6;
+    padding: 4px 12px;
 }
 
 .toggleArrow:hover {
@@ -42,21 +42,36 @@ pre {
     opacity: 0.9;
 }
 
+.disabled {
+    background-color: var(--gray);
+    opacity: 0.3;
+    pointer-events: none;
+}
+
 .toggleArrow > svg {
-    margin-left: 4px;
+    font-size: 18px;
+    margin-left: 6px;
+    padding-top: 4px;
 }
 
 
 .label {
+    align-items: center;
     color: var(--orange);
+    display: flex;
     font-size: 20px;
-    font-weight: 600;
+    font-weight: 700;
+    justify-content: space-between;
 }
 
-.label::before {
-    content: '>';
-    font-family: 'Courier New', Courier, monospace;
-    margin-right: 4px;
+.label > div > svg {
+    margin-right: 6px;
+}
+
+.moreAnswersLabel {
+    font-size: 14px;
+    font-style: italic;
+    text-align: right;
 }
 
 .urlBtn {

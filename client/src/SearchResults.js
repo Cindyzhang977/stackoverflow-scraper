@@ -33,7 +33,7 @@ function SearchResults() {
     return (
         <div className={styles.container}>
             <div className={styles.questionHeader}>
-                Search results for: <span className={styles.question}>{query}</span>
+                Search results for <span className={styles.question}>{query}</span>
             </div>
             {
                 !loading &&
@@ -48,7 +48,7 @@ function SearchResults() {
             }
             <div className={styles.resultsContainer}>
                 {data.map((result, index) =>
-                    <Result result={result} key={index} />
+                    <Result result={result} index={index} hasPrev={index !== 0} hasNext={index < data.length} key={index} />
                 )}
             </div>
         </div>
