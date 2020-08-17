@@ -2,6 +2,10 @@
 
 Webscrape StackOverflow posts related to an user inputted question. Displays the post and the top answer for the user to browse without the burden of clicking through links. If a post seems promising, click to view full post on StackOverflow.
 
+## Demo
+[![Demo video](http://img.youtube.com/vi/4oSAqtPvEvo/0.jpg)](http://www.youtube.com/watch?v=4oSAqtPvEvo)
+
+
 ## Run
 ```
 cd server
