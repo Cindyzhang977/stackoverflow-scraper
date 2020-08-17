@@ -13,14 +13,9 @@ function SearchResults() {
     const [loading, setLoading] = useState(true)
 
     useEffect(() => {
-        if (!query) {
-            console.log("no query")
-            return
-        }
-        fetch(`/_ah/api/scrape-query/${query}`)
+        fetch(`/scrape-query/${query}`)
             .then(res => res.json())
             .then(json => {
-                console.log(json)
                 setResults(json.results)
             })
             .then(() => {

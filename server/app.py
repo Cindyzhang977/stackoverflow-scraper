@@ -7,7 +7,7 @@ app = Flask(__name__, static_folder='../client/build', static_url_path='/')
 def index():
 	return app.send_static_file('index.html')
 
-@app.route('/_ah/api/scrape-query')
-@app.route('/_ah/api/scrape-query/<query>')
+@app.route('/scrape-query')
+@app.route('/scrape-query/<query>')
 def scrape_query(query):
 	return {'results': script.scrape(query)}
