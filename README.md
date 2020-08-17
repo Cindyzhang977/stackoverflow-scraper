@@ -4,3 +4,4 @@ Webscrape StackOverflow posts related to an user inputted question. Displays the
 
 ### References
 - [Tutorial](https://blog.miguelgrinberg.com/post/how-to-create-a-react--flask-project) on connecting React frontend to Flask backend
+- [Tutorial](https://blog.miguelgrinberg.com/post/how-to-deploy-a-react--flask-project) on deploying app with gunicorn
