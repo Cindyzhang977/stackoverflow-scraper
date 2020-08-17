@@ -84,7 +84,7 @@ const json = [
   },
   {
     "title": "Browse",
-    "description": "Browse through posts and its top response without clicking through links. If an answer looks promising, click to view on Stack Overflow",
+    "description": "Browse through posts and its top response without clicking through links. If an answer looks promising, click to view on Stack Overflow.",
     "img": browse,
   }
 ]
